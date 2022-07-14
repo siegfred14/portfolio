@@ -12,6 +12,6 @@
 
 #### Carousel Slides with Swiper JS
 
-####
+## There is employed in here the use of multiple components and I am using class components for this project
 
 ####
