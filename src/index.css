@@ -13,12 +13,17 @@
 
 body{
   font-family: 'Kanit', sans-serif;
+  background: var(--color-bg) url(./img/Pattern-Transparent-Background.png);
+  color: var(--color-font);
+  line-height: 1.7;
 }
 
 /* creating css variables */
 :root{
   /* --color-bg: #1f1f38; */
-  --color-bg: rgb(165, 163, 163);
+  --color-bg: #f7eedf;
+  --color-font: #af811e;
+  --color-font-two: #d5be8b;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
