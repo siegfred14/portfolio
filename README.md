@@ -16,4 +16,8 @@
 
 ## There is employed in here the use of multiple components and I am using class components for this project
 
-## There is a general CSS file for the project, and there is a respective css file per component
+## There is a general CSS file for the project, and there is a respective css file per component.
+
+### Employed in the general CSS file is CSS variables and media queries techology.
+
+### The component css files are built on sass
