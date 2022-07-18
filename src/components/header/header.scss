@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 16vh;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ header{
 
 // CTA
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 7vh;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -27,6 +27,10 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
+
+    a:hover{
+        transform: scale(150%);
+    }
 }
 
 .header_socials::before{
@@ -34,4 +38,38 @@ header{
     width: 1.5px;
     height: 2rem;
     background: var(--color-primary);
+}
+
+// Photo
+.header_photo{
+    // background: var(--color-primary);
+    width: 14rem;
+    height: 30rem;
+    position: absolute;
+    // left: calc(50%-12rem);
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+    img{
+        position: relative;
+        top: -150px;
+        left: -230px;
+        width: 600px;
+        height: 800px;
+        overflow: hidden;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        border: 6px solid #f4f0e4;
+        border-radius: 0.5rem;
+        z-index: 1;
+      }
 }

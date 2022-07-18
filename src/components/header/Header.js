@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h4>Hello I'm</h4>
+        <h3>Hello I'm</h3>
         <h1>Siegfred Samson</h1>
-        <h4 className="text-red">Front End Developer</h4>
+        <h3 className="text-red">Front End Developer</h3>
         <CTA />
         <HeaderSocials />
 
-        <figure>
+        <figure className="header_photo">
           <img src={photo} alt="photo" />
         </figure>
 

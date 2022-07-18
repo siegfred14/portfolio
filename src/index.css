@@ -26,13 +26,12 @@ body{
   --color-font: #af811e;
   --color-font-two: #d5be8b;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #f5c661;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary: #200f06;
+  --color-primary-variant: #f5c661;
+  /* --color-primary-variant: rgba(77, 181, 255, 0.4); */
   --color-white: #fff;
-  --color-red: rgb(255, 16, 16);
   --color-light: rgba(255, 255, 255, 0.6);
-  --color-bg-hover: #f8d891;
-  --color-a-hover: green;
+  --color-bg-hover: #d5be8b;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -81,9 +80,9 @@ section > h2{
   color: var(--color-light);
 }
 
-.text-red{
+/* .text-red{
   color: var(--color-red);
-}
+} */
 
 a{
   color: var(--color-primary);
