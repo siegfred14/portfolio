@@ -26,10 +26,12 @@ body{
   --color-font: #af811e;
   --color-font-two: #d5be8b;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: #f5c661;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
+  --color-red: rgb(255, 16, 16);
   --color-light: rgba(255, 255, 255, 0.6);
+  --color-bg-hover: #f8d891;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -78,6 +80,10 @@ section > h2{
   color: var(--color-light);
 }
 
+.text-red{
+  color: var(--color-red);
+}
+
 a{
   color: var(--color-primary);
   transition: var(--transition);
@@ -91,7 +97,8 @@ a:hover{
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.2rem auto;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
@@ -99,8 +106,8 @@ a:hover{
 }
 
 .btn:hover{
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: var(--color-bg-hover);
+  color: var(--color-font);
   border-color: transparent;
 }
 
