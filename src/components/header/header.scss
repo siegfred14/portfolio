@@ -16,6 +16,10 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+
+    a:hover{
+        text-shadow: 0 0 5px white;
+    }
 }
 
 // Socials
@@ -73,3 +77,28 @@ header{
         z-index: 1;
       }
 }
+
+// scroll
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 7rem;
+    transform: rotate(90deg);
+}
+
+/* -----------Media Queries for Medium Devices----------- */
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+  }
+  
+  /* -----------Media Queries for Small Devices----------- */
+  @media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header_socials, .scroll_down{
+        display: none;
+    }
+  }
