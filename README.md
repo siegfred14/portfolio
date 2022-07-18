@@ -6,7 +6,9 @@
 
 #### useState hook
 
-#### React Icons
+#### React Icons - I'm using react icons for social links from
+
+[(https://react-icons.github.io/react-icons)]
 
 #### Modern and responsive designs with CSS3
 
