@@ -3,9 +3,9 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>footer</h1>
-    </div>
+    <section id="footer">
+      <p>footer section</p>
+    </section>
   );
 };
 

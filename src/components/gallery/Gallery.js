@@ -3,10 +3,10 @@ import "./gallery.css";
 
 const Gallery = () => {
   return (
-    <div>
+    <section id="gallery">
       <p>slide show of pics</p>
       {/* write a function to receive photo and map it to an image design */}
-    </div>
+    </section>
   );
 };
 

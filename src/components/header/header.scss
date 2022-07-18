@@ -87,18 +87,18 @@ header{
 }
 
 /* -----------Media Queries for Medium Devices----------- */
-@media screen and (max-width: 1024px) {
-    header{
-        height: 68vh;
-    }
-  }
+// @media screen and (max-width: 1024px) {
+//     header{
+//         height: 68vh;
+//     }
+//   }
   
-  /* -----------Media Queries for Small Devices----------- */
-  @media screen and (max-width: 600px) {
-    header{
-        height: 100vh;
-    }
-    .header_socials, .scroll_down{
-        display: none;
-    }
-  }
+//   /* -----------Media Queries for Small Devices----------- */
+//   @media screen and (max-width: 600px) {
+//     header{
+//         height: 100vh;
+//     }
+//     .header_socials, .scroll_down{
+//         display: none;
+//     }
+//   }
