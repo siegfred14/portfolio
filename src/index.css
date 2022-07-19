@@ -26,12 +26,12 @@ body{
   --color-font: #af811e;
   --color-font-two: #d5be8b;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #200f06;
-  --color-primary-variant: #f5c661;
+  --color-primary: #684c10;
+  --color-primary-variant: #3f2f0d;
   /* --color-primary-variant: rgba(77, 181, 255, 0.4); */
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-  --color-bg-hover: #d5be8b;
+  --color-bg-hover: #f1c669;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
