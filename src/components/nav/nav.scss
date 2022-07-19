@@ -1,0 +1,51 @@
+nav{
+    background: rgba($color: #f1c669, $alpha: 0.59);
+    width: max-content;
+    // display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 1.8rem;
+    backdrop-filter: blur(15px);
+
+    a{
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+        transition: all 0.3s;
+
+        span {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            padding: 3px;
+            font-size: 10px;
+            transition: 0.7s;
+          }
+
+          &:hover{
+            background: rgba($color: #f7e8c9, $alpha: 0.9);
+            transform: scale(1.2);
+          }
+          
+          &:hover span {
+            transition: 0.7s;
+            display: block;        
+          }
+
+          &.active{
+              background: var(--color-bg);
+          }
+    }
+}
+
+// put on scroll, change background

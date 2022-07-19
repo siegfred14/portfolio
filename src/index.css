@@ -22,7 +22,8 @@ body{
 :root{
   /* --color-bg: #1f1f38; */
   /* try blue background later */
-  --color-bg: #e0ffc2;
+  --color-bg: #f7e8c9;
+  --color-bg-alt: #e0ffc2;
   --color-font: #af811e;
   --color-font-two: #d5be8b;
   --color-bg-variant: #2c2c6c;

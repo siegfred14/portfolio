@@ -1,1 +1,66 @@
-/* No CSS *//*# sourceMappingURL=nav.css.map */
+nav {
+  background: rgba(241, 198, 105, 0.59);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 1.8rem;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 3px;
+  font-size: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+nav a:hover {
+  background: rgba(247, 232, 201, 0.9);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav a:hover span {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  display: block;
+}
+
+nav a.active {
+  background: var(--color-bg);
+}
+/*# sourceMappingURL=nav.css.map */
