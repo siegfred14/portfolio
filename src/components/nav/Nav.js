@@ -6,13 +6,33 @@ import { GiSkills, GiSpanner } from "react-icons/gi";
 import { BiBriefcase } from "react-icons/bi";
 import { BsMailbox } from "react-icons/bs";
 
-// const changeNav = () =>{
-//   let navNew = document.querySelector('.nav');
-//   navNew.background
-// }
+// const changeActiveNav = (href) => {
+//   activeNav === href ? "active" : "";
+// };
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
+  // Change active on scroll
+  const sections = document.querySelectorAll("section");
+  const navAnchor = document.querySelectorAll("nav a");
+  window.onscroll = () => {
+    var current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (scrollY >= sectionTop - 60) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navAnchor.forEach((a) => {
+      a.classList.remove("active");
+      if (a.classList.contains(current)) {
+        a.classList.add("active");
+      }
+    });
+  };
 
   return (
     <nav>
