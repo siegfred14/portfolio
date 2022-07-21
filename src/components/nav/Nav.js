@@ -10,29 +10,30 @@ import { BsMailbox } from "react-icons/bs";
 //   activeNav === href ? "active" : "";
 // };
 
+// Change active on scroll
+// const sections = document.querySelectorAll("section");
+// const navAnchor = document.querySelectorAll("nav a");
+
+// window.onscroll = () => {
+//   var current = "";
+
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     if (scrollY >= sectionTop - 60) {
+//       current = section.getAttribute("id");
+//     }
+//   });
+
+//   navAnchor.forEach((a) => {
+//     a.classList.remove("active");
+//     if (a.classList.contains(current)) {
+//       a.classList.add("active");
+//     }
+//   });
+// };
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-
-  // Change active on scroll
-  const sections = document.querySelectorAll("section");
-  const navAnchor = document.querySelectorAll("nav a");
-  window.onscroll = () => {
-    var current = "";
-
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop;
-      if (scrollY >= sectionTop - 60) {
-        current = section.getAttribute("id");
-      }
-    });
-
-    navAnchor.forEach((a) => {
-      a.classList.remove("active");
-      if (a.classList.contains(current)) {
-        a.classList.add("active");
-      }
-    });
-  };
 
   return (
     <nav>
