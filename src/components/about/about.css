@@ -21,10 +21,24 @@
   overflow: hidden;
   -webkit-transform: rotate(350deg);
           transform: rotate(350deg);
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .about_container .about_me .about_me_image img {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+}
+
+.about_container .about_me:hover .about_me_image {
+  height: 100%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 10px var(--color-font);
+          box-shadow: 0 0 10px var(--color-font);
+}
+
+.about_container .about_me:hover .about_me_image img {
+  height: 100%;
 }
 /*# sourceMappingURL=about.css.map */

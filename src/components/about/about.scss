@@ -10,18 +10,30 @@
         background: linear-gradient(-45deg, transparent, var(--color-font), transparent);
         display: grid;
         place-items: center;
-
+        
         .about_me_image{
             border-radius: 1.2rem;
             overflow: hidden;
             transform: rotate(350deg);
-            // height: 100%;
-
+            transition: 1.2s;
+            
             img{
                 transform: scaleX(-1);
-                // height: 100%;
             }
-
+            
         }
+        &:hover {
+
+            .about_me_image{
+                height: 100%;
+                transform: rotate(0deg);
+                box-shadow: 0 0 10px var(--color-font);
+                
+                img{
+                    height: 100%;
+                }
+            }
+        }
+
     }
 }
