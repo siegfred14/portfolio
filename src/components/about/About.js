@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import img from "../../img/SmartSelect_20220721-143019_Gallery.jpg";
+import img2 from "../../img/SmartSelect_20220721-143057_Gallery.jpg";
+import img3 from "../../img/SmartSelect_20220721-164043_Gallery.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -14,17 +16,15 @@ const About = () => {
       <div className="container about_container">
         <div className="about_content">
           <p>
-            I Am A Frontend Developer. I Work In The Branch Of Computer Science
-            That Includes The Development And Building Of Computer web
-            applications, drawing from my knowledge of engineering, computer
-            science, and math to write, edit, test, and debug programs.
-            <br />
-            <br />
-            I am comfortably a team player who pays attention to detail, is
-            decision-oriented and result-driven, and possesses great
-            interpersonal and work relationship.
-            <br />
-            <br />I hold a degree in Computer Science and I am fluent in{" "}
+            I am a <span>Frontend Developer</span>, working in the branch of
+            technology that includes the development of computer web
+            applications.
+            <br /> Possessing a <span>Computer Science</span> degree, I draw
+            from my knowledge of engineering and math to source information
+            write, edit, test, and debug web programs and applications.
+            <br />I am comfortably a team player who pays attention to detail,
+            is decision-oriented and result-driven, possesses great
+            interpersonal and work relationship, communicating fluently in{" "}
             <span>English</span> and <span className="french">French</span>
           </p>
 
@@ -50,10 +50,17 @@ const About = () => {
           {/* <a href="#contact"className="btn btn-primary">Contact Me</a> */}
         </div>
 
-        <div className="about_me">
+        {/* <div className="about_me">
           <figure className="about_me_image">
             <img src={img} alt="" />
           </figure>
+        </div> */}
+        <div class="image-collage">
+          <div class="image-collection">
+            <img src={img} alt="image loading..." class="collage-img" />
+            <img src={img2} alt="image loading..." class="collage-img" />
+            <img src={img3} alt="image loading..." class="collage-img" />
+          </div>
         </div>
       </div>
     </section>
