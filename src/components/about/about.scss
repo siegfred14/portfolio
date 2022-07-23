@@ -1,0 +1,27 @@
+.about_container{
+    display: grid;
+    grid-template-columns: 50% 37%;
+    gap: 13%;
+
+    .about_me{
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 1.2rem;
+        background: linear-gradient(45deg, transparent, var(--color-font), transparent);
+        display: grid;
+        place-items: center;
+
+        .about_me_image{
+            border-radius: 1.2rem;
+            overflow: hidden;
+            transform: rotate(350deg);
+            // height: 100%;
+
+            img{
+                transform: scaleX(-1);
+                // height: 100%;
+            }
+
+        }
+    }
+}

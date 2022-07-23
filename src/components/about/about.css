@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
+.about_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 37%;
+      grid-template-columns: 50% 37%;
+  gap: 13%;
+}
+
+.about_container .about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 1.2rem;
+  background: linear-gradient(45deg, transparent, var(--color-font), transparent);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.about_container .about_me .about_me_image {
+  border-radius: 1.2rem;
+  overflow: hidden;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+}
+
+.about_container .about_me .about_me_image img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+/*# sourceMappingURL=about.css.map */

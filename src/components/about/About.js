@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
         <div className="about_me">
-          <figure>
+          <figure className="about_me_image">
             <img src={img} alt="" />
           </figure>
         </div>
