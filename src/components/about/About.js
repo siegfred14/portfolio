@@ -12,13 +12,22 @@ const About = () => {
       <h2>Know About Me</h2>
 
       <div className="container about_container">
-        <div className="about_me">
-          <figure>
-            <img src={img} alt="" />
-          </figure>
-        </div>
-
         <div className="about_content">
+          <p>
+            I Am A Frontend Developer. I Work In The Branch Of Computer Science
+            That Includes The Development And Building Of Computer web
+            applications, drawing from my knowledge of engineering, computer
+            science, and math to write, edit, test, and debug programs.
+            <br />
+            <br />
+            I am comfortably a team player who pays attention to detail, is
+            decision-oriented and result-driven, and possesses great
+            interpersonal and work relationship.
+            <br />
+            <br />I hold a degree in Computer Science and I am fluent in{" "}
+            <span>English</span> and <span className="french">French</span>
+          </p>
+
           <div className="about_cards">
             <article className="about_card">
               <FaAward className="about_icon" />
@@ -43,20 +52,13 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            I Am A Frontend Developer. I Work In The Branch Of Computer Science
-            That Includes The Development And Building Of Computer web
-            applications, drawing from my knowledge of engineering, computer
-            science, and math to write, edit, test, and debug programs.
-            <br />
-            <br />
-            I am a team player who pays attention to detail, is
-            decision-oriented and result-driven, and possesses great
-            interpersonal and work relationship.
-            <br />
-            <br />I hold a degree in Computer Science and I am fluent in{" "}
-            <span>English</span> and <span className="french">French</span>
-          </p>
+          {/* <a href="#contact"className="btn btn-primary">Contact Me</a> */}
+        </div>
+
+        <div className="about_me">
+          <figure>
+            <img src={img} alt="" />
+          </figure>
         </div>
       </div>
     </section>
