@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import img from "../../img/SmartSelect_20220721-143019_Gallery.jpg";
-import img2 from "../../img/SmartSelect_20220721-143057_Gallery.jpg";
+import img2 from "../../img/me_phily.jpg";
 import img3 from "../../img/SmartSelect_20220721-164043_Gallery.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
