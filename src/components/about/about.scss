@@ -3,6 +3,49 @@
     grid-template-columns: 50% 37%;
     gap: 13%;
 
+    .about_content{
+        .about_cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+
+            .about_card{
+                background: var(--color-bg-variant);
+                border: 1px solid transparent;
+                border-radius: 0.5rem;
+                padding: 2rem;
+                text-align: center;
+                transition: var(--transition);
+                
+                &:hover{
+                    background: transparent;
+                    box-shadow: 0 0 7px var(--color-primary-variant) ;
+                    cursor: default;
+                }
+
+                .about_icon{
+                    color: var(--color-primary);
+                    font-size: 1.4rem;
+                    margin-bottom: 1rem;
+                }
+
+                h5{
+                    font-size: 0.95rem;
+                }
+
+                small{
+                    font-size: 0.7rem;
+                    color: var(--color-light);
+                    text-shadow: 0 0 0.2px var(--color-primary);
+                }
+            }
+        }
+
+        p{
+            margin: 2rem 0 2.6rem;
+        }
+    }
+
     .about_me{
         width: 100%;
         aspect-ratio: 1/1;

@@ -34,24 +34,19 @@ const About = () => {
               <h5>Experience</h5>
               <small>Above 3 years</small>
             </article>
-          </div>
 
-          <div className="about_cards">
             <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Clients</h5>
               <small>200 +</small>
             </article>
-          </div>
 
-          <div className="about_cards">
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
               <small>80+</small>
             </article>
           </div>
-
           {/* <a href="#contact"className="btn btn-primary">Contact Me</a> */}
         </div>
 

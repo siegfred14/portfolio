@@ -24,9 +24,10 @@ body{
   /* try blue background later */
   --color-bg: #f7e8c9;
   --color-bg-alt: #e0ffc2;
+  --color-bg-variant: #f7d797;
+  
   --color-font: #af811e;
   --color-font-two: #d5be8b;
-  --color-bg-variant: #2c2c6c;
   --color-primary: #684c10;
   --color-primary-variant: #3f2f0d;
   --color-ptag: #8b6104;
