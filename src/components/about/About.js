@@ -38,7 +38,7 @@ const About = () => {
             technology that includes the development of computer web
             applications.
             <br /> Possessing a <span>Computer Science</span> degree, I draw
-            from my knowledge of engineering and math to source information
+            from my knowledge of engineering and math to source information,
             write, edit, test, and debug web programs and applications.
             <br />I am comfortably a team player who pays attention to detail,
             is decision-oriented and result-driven, possesses great

@@ -129,7 +129,32 @@ section > h5 {
   }
   #about .image-collage .image-collection {
     height: 100%;
-    background-color: aquamarine;
+    width: 100%;
+  }
+  #about .image-collage .image-collection .collage-img {
+    width: 100%;
+  }
+  #about .image-collage .image-collection .collage-img:nth-child(1) {
+    width: 260px;
+    height: 260px;
+    top: 20px;
+    left: 5px;
+  }
+  #about .image-collage .image-collection .collage-img:nth-child(2) {
+    width: 350px;
+    height: 280px;
+    top: 10px;
+    left: 150px;
+  }
+  #about .image-collage .image-collection .collage-img:nth-child(3) {
+    width: 270px;
+    height: 250px;
+    top: 30px;
+    left: 370px;
+  }
+  #about .image-collage .image-collection .collage-img:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
 }
 

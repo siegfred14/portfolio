@@ -148,6 +148,7 @@ section > h5{
 
     #about{        
         // height: fit-content;
+        // background-color: yellow;
 
         h2{
             margin-bottom: 1rem;
@@ -156,7 +157,7 @@ section > h5{
           .about_container{
             grid-template-columns: 1fr;
             // gap: 0;
-            // background-color: yellow;
+            // background-color: grey;
     
             .about_content{
                 p{
@@ -175,7 +176,40 @@ section > h5{
             // height: 100%;
             .image-collection{
                 height: 100%;
-                background-color: aquamarine;                
+                width: 100%;
+                
+                .collage-img {
+                    // position: absolute;
+                    // object-fit: cover;
+                    // transition: 0.5s;
+                    // background-color: aquamarine;   
+                    width: 100%;
+
+                    &:nth-child(1) {
+                      width: 260px;
+                      height: 260px;
+                      top: 20px;
+                      left: 5px;
+                    }
+            
+                    &:nth-child(2) {
+                      width: 350px;
+                      height: 280px;
+                      top: 10px;
+                      left: 150px;
+                    }
+            
+                    &:nth-child(3) {
+                      width: 270px;
+                      height: 250px;
+                      top: 30px;
+                      left: 370px;
+                    }
+            
+                    &:hover {
+                      transform: translateY(-10px);
+                    }
+                  }
             }
         }
 
