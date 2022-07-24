@@ -92,45 +92,103 @@ section > h5{
 
     // }
     .image-collage {
-        position: relative;
-        display: block;
         width: 100%;
-        height: 100%;
-      //   background: #fff;
-        margin: auto;
-  
-        .collage-img {
-          position: absolute;
-          object-fit: cover;
-          transition: 0.5s;
-  
-          &:nth-child(1) {
-            width: 300px;
-            height: 300px;
-            top: 20px;
-            left: 5px;
-          }
-  
-          &:nth-child(2) {
-            width: 250px;
-            height: 230px;
-            top: 130px;
-            left: 130px;
-          }
-  
-          &:nth-child(3) {
-            width: 230px;
-            height: 250px;
-            top: 50px;
-            left: 200px;
-          }
-  
-          &:hover {
-            transform: translateY(-10px);
+        // height: 100%;
+        // background: #bc142e;
+        background-size: cover;
+        // border-left: 10px solid red;
+        display: grid;
+        place-items: center;
+    
+        .image-collection {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+        //   background: #fff;
+          margin: auto;
+    
+          .collage-img {
+            position: absolute;
+            object-fit: cover;
+            transition: 0.5s;
+    
+            &:nth-child(1) {
+              width: 300px;
+              height: 300px;
+              top: 20px;
+              left: 5px;
+            }
+    
+            &:nth-child(2) {
+              width: 250px;
+              height: 230px;
+              top: 130px;
+              left: 130px;
+            }
+    
+            &:nth-child(3) {
+              width: 230px;
+              height: 250px;
+              top: 50px;
+              left: 200px;
+            }
+    
+            &:hover {
+              transform: translateY(-10px);
+            }
           }
         }
-      }
-    
-
+      } 
 
 }
+
+/* -----------Media Queries for Medium Devices----------- */
+@media screen and (max-width: 1024px) {
+
+    #about{        
+        // height: fit-content;
+
+        h2{
+            margin-bottom: 1rem;
+          }
+        
+          .about_container{
+            grid-template-columns: 1fr;
+            // gap: 0;
+            // background-color: yellow;
+    
+            .about_content{
+                p{
+                    margin: 0.2rem 0 1.5rem;
+                    text-align: center;
+                }
+
+                .about_cards{
+                    display: none;
+                }
+            }
+        }
+        .image-collage{
+            // width: 50%;
+            // margin: 2rem auto 4rem;
+            // height: 100%;
+            .image-collection{
+                height: 100%;
+                background-color: aquamarine;                
+            }
+        }
+
+    }
+    
+  }
+  
+  /* -----------Media Queries for Small Devices----------- */
+  @media screen and (max-width: 600px) {
+    // header{
+    //     height: 100vh;
+    // }
+    // .header_socials, .scroll_down{
+    //     display: none;
+    // }
+  }
