@@ -92,49 +92,41 @@ section > h5{
 
     // }
     .image-collage {
+        position: relative;
+        display: block;
         width: 100%;
         height: 100%;
-        // background: #bc142e;
-        background-size: cover;
-        // border-left: 10px solid red;
-    
-        .image-collection {
-          position: relative;
-          display: block;
-          width: 100%;
-          height: 100%;
-        //   background: #fff;
-          margin: auto;
-    
-          .collage-img {
-            position: absolute;
-            object-fit: cover;
-            transition: 0.5s;
-    
-            &:nth-child(1) {
-              width: 300px;
-              height: 300px;
-              top: 20px;
-              left: 5px;
-            }
-    
-            &:nth-child(2) {
-              width: 250px;
-              height: 230px;
-              top: 130px;
-              left: 130px;
-            }
-    
-            &:nth-child(3) {
-              width: 230px;
-              height: 250px;
-              top: 50px;
-              left: 200px;
-            }
-    
-            &:hover {
-              transform: translateY(-10px);
-            }
+      //   background: #fff;
+        margin: auto;
+  
+        .collage-img {
+          position: absolute;
+          object-fit: cover;
+          transition: 0.5s;
+  
+          &:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            top: 20px;
+            left: 5px;
+          }
+  
+          &:nth-child(2) {
+            width: 250px;
+            height: 230px;
+            top: 130px;
+            left: 130px;
+          }
+  
+          &:nth-child(3) {
+            width: 230px;
+            height: 250px;
+            top: 50px;
+            left: 200px;
+          }
+  
+          &:hover {
+            transform: translateY(-10px);
           }
         }
       }

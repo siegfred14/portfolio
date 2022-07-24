@@ -62,12 +62,6 @@ section > h5 {
 }
 
 .about_container .image-collage {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-.about_container .image-collage .image-collection {
   position: relative;
   display: block;
   width: 100%;
@@ -75,7 +69,7 @@ section > h5 {
   margin: auto;
 }
 
-.about_container .image-collage .image-collection .collage-img {
+.about_container .image-collage .collage-img {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -83,28 +77,28 @@ section > h5 {
   transition: 0.5s;
 }
 
-.about_container .image-collage .image-collection .collage-img:nth-child(1) {
+.about_container .image-collage .collage-img:nth-child(1) {
   width: 300px;
   height: 300px;
   top: 20px;
   left: 5px;
 }
 
-.about_container .image-collage .image-collection .collage-img:nth-child(2) {
+.about_container .image-collage .collage-img:nth-child(2) {
   width: 250px;
   height: 230px;
   top: 130px;
   left: 130px;
 }
 
-.about_container .image-collage .image-collection .collage-img:nth-child(3) {
+.about_container .image-collage .collage-img:nth-child(3) {
   width: 230px;
   height: 250px;
   top: 50px;
   left: 200px;
 }
 
-.about_container .image-collage .image-collection .collage-img:hover {
+.about_container .image-collage .collage-img:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }

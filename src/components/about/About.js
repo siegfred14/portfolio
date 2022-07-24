@@ -74,11 +74,9 @@ const About = () => {
           </figure>
         </div> */}
         <div class="image-collage">
-          <div class="image-collection">
-            <img src={img} alt="image loading..." class="collage-img" />
-            <img src={img2} alt="image loading..." class="collage-img" />
-            <img src={img3} alt="image loading..." class="collage-img" />
-          </div>
+          <img src={img} alt="image loading..." class="collage-img" />
+          <img src={img2} alt="image loading..." class="collage-img" />
+          <img src={img3} alt="image loading..." class="collage-img" />
         </div>
       </div>
     </section>
