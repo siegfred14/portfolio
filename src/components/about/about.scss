@@ -94,19 +94,20 @@ section > h5{
     .image-collage {
         width: 100%;
         // height: 100%;
-        // background: #bc142e;
-        background-size: cover;
+        background: gray;
+        // background-size: cover;
         // border-left: 10px solid red;
         display: grid;
         place-items: center;
-    
+        
         .image-collection {
-          position: relative;
-          display: block;
-          width: 100%;
-          height: 100%;
-        //   background: #fff;
-          margin: auto;
+            position: relative;
+            display: block;
+            width: 90%;
+            height: 100%;
+            //   background: #fff;
+            margin: auto;
+            background-color: #fff;
     
           .collage-img {
             position: absolute;
@@ -116,22 +117,21 @@ section > h5{
             &:nth-child(1) {
               width: 300px;
               height: 300px;
-              top: 20px;
-              left: 5px;
+              top: 7%;
             }
     
             &:nth-child(2) {
               width: 250px;
               height: 230px;
-              top: 130px;
-              left: 130px;
+              top: 35%;
+              left: 20%;
             }
     
             &:nth-child(3) {
               width: 230px;
               height: 250px;
-              top: 50px;
-              left: 200px;
+              top: 14%;
+              right: 0;
             }
     
             &:hover {
@@ -146,23 +146,21 @@ section > h5{
 /* -----------Media Queries for Medium Devices----------- */
 @media screen and (max-width: 1024px) {
 
-    #about{        
-        // height: fit-content;
-        // background-color: yellow;
-
+    #about{
+        background-color: aqua;
         h2{
             margin-bottom: 1rem;
           }
         
           .about_container{
             grid-template-columns: 1fr;
-            // gap: 0;
-            // background-color: grey;
-    
+            // grid-template-rows: 45% 50% ;
+                
             .about_content{
                 p{
-                    margin: 0.2rem 0 1.5rem;
+                    margin: 0.5rem 0 1rem;
                     text-align: center;
+                    font-size: 15px;
                 }
 
                 .about_cards{
@@ -171,39 +169,32 @@ section > h5{
             }
         }
         .image-collage{
-            // width: 50%;
-            // margin: 2rem auto 4rem;
-            // height: 100%;
+            color: gray;
             .image-collection{
-                height: 100%;
-                width: 100%;
+                // height: 100%;
+                // width: 100%;
                 
                 .collage-img {
-                    // position: absolute;
-                    // object-fit: cover;
-                    // transition: 0.5s;
-                    // background-color: aquamarine;   
-                    width: 100%;
 
                     &:nth-child(1) {
                       width: 260px;
                       height: 260px;
                       top: 20px;
-                      left: 5px;
+                      left: 120px;
                     }
             
                     &:nth-child(2) {
                       width: 350px;
                       height: 280px;
                       top: 10px;
-                      left: 150px;
+                      left: 270px;
                     }
             
                     &:nth-child(3) {
                       width: 270px;
                       height: 250px;
                       top: 30px;
-                      left: 370px;
+                      left: 460px;
                     }
             
                     &:hover {
