@@ -87,21 +87,21 @@ section > h5 {
 }
 
 .about_container .image-collage .image-collection .collage-img:nth-child(1) {
-  width: 300px;
-  height: 300px;
+  width: 75%;
+  height: 77%;
   top: 7%;
 }
 
 .about_container .image-collage .image-collection .collage-img:nth-child(2) {
-  width: 250px;
-  height: 230px;
+  width: 63%;
+  height: 62%;
   top: 35%;
   left: 20%;
 }
 
 .about_container .image-collage .image-collection .collage-img:nth-child(3) {
-  width: 230px;
-  height: 250px;
+  width: 56%;
+  height: 68%;
   top: 14%;
   right: 0;
 }
@@ -120,8 +120,10 @@ section > h5 {
     margin-bottom: 1rem;
   }
   #about .about_container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    gap: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   #about .about_container .about_content p {
     margin: 0.5rem 0 1rem;
@@ -131,30 +133,14 @@ section > h5 {
   #about .about_container .about_content .about_cards {
     display: none;
   }
-  #about .image-collage {
-    color: gray;
+  #about .about_container .image-collage {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
   }
-  #about .image-collage .image-collection .collage-img:nth-child(1) {
-    width: 260px;
-    height: 260px;
-    top: 20px;
-    left: 120px;
-  }
-  #about .image-collage .image-collection .collage-img:nth-child(2) {
-    width: 350px;
-    height: 280px;
-    top: 10px;
-    left: 270px;
-  }
-  #about .image-collage .image-collection .collage-img:nth-child(3) {
-    width: 270px;
-    height: 250px;
-    top: 30px;
-    left: 460px;
-  }
-  #about .image-collage .image-collection .collage-img:hover {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+  #about .about_container .image-collage .image-collection {
+    padding: 0;
+    margin: 0;
   }
 }
 
