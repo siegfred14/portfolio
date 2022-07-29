@@ -122,7 +122,7 @@ section > h5 {
 }
 
 /* -----------Media Queries for Medium Devices----------- */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .about_container {
     gap: 2%;
     -ms-grid-columns: 50% 48%;
@@ -137,7 +137,7 @@ section > h5 {
 }
 
 /* -----------Media Queries for Medium  Portrait Devices----------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   #about {
     background-color: aqua;
   }
@@ -169,7 +169,8 @@ section > h5 {
     margin: 0;
   }
   #about .about_container .image-collage .image-collection {
-    height: 350px;
+    height: 400px;
+    width: 80%;
   }
 }
 
