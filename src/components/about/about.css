@@ -8,6 +8,15 @@ section > h5 {
   -ms-grid-columns: 50% 45%;
       grid-template-columns: 50% 45%;
   gap: 5%;
+  border: 10px solid blue;
+}
+
+.about_container .about_content {
+  border: 10px solid green;
+}
+
+.about_container .about_content p {
+  text-align: center;
 }
 
 .about_container .about_content p span {
@@ -25,7 +34,7 @@ section > h5 {
 
 .about_container .about_content .about_cards .about_card {
   background: var(--color-bg-variant);
-  border: 1px solid transparent;
+  border: 0.2% solid transparent;
   border-radius: 0.5rem;
   padding: 2rem;
   text-align: center;
@@ -62,6 +71,7 @@ section > h5 {
 }
 
 .about_container .image-collage {
+  border: 10px solid pink;
   width: 100%;
   background: gray;
   display: -ms-grid;
@@ -70,6 +80,7 @@ section > h5 {
 }
 
 .about_container .image-collage .image-collection {
+  border: 10px solid brown;
   position: relative;
   display: block;
   width: 90%;
@@ -111,8 +122,20 @@ section > h5 {
           transform: translateY(-10px);
 }
 
-/* -----------Media Queries for Medium Devices----------- */
+/* -----------Media Queries for Medium Portratit Devices----------- */
 @media screen and (max-width: 1024px) {
+  .about_container {
+    gap: 2%;
+    -ms-grid-columns: 50% 48%;
+        grid-template-columns: 50% 48%;
+  }
+  .about_container .image-collage .image-collection {
+    width: 100%;
+  }
+}
+
+/* -----------Media Queries for Medium  Portratit Devices----------- */
+@media screen and (max-width: 768px) {
   #about {
     background-color: aqua;
   }
@@ -120,27 +143,31 @@ section > h5 {
     margin-bottom: 1rem;
   }
   #about .about_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     gap: 0;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
+    background-color: white;
+  }
+  #about .about_container .about_content {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   #about .about_container .about_content p {
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 0.3rem;
     text-align: center;
     font-size: 15px;
   }
-  #about .about_container .about_content .about_cards {
-    display: none;
-  }
   #about .about_container .image-collage {
-    background-color: gray;
+    background-color: #fff;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     padding: 0;
     margin: 0;
   }
   #about .about_container .image-collage .image-collection {
-    padding: 0;
-    margin: 0;
+    height: 350px;
   }
 }
 
