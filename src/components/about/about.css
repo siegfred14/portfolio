@@ -12,6 +12,7 @@ section > h5 {
 
 .about_container .about_content p {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .about_container .about_content p span {
@@ -116,9 +117,9 @@ section > h5 {
 /* -----------Media Queries for Medium Devices----------- */
 @media screen and (max-width: 1180px) {
   .about_container {
-    gap: 2%;
-    -ms-grid-columns: 50% 48%;
-        grid-template-columns: 50% 48%;
+    gap: 4%;
+    -ms-grid-columns: 50% 46%;
+        grid-template-columns: 50% 46%;
   }
   .about_container .about_content .about_cards {
     gap: 0.5rem;
@@ -144,7 +145,7 @@ section > h5 {
     height: fit-content;
   }
   #about .about_container .about_content p {
-    margin: 0.5rem 0 0.3rem;
+    margin: 0.5rem 0 1.5rem;
     text-align: center;
     font-size: 20px;
   }
