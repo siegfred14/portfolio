@@ -20,7 +20,7 @@ const About = () => {
       });
     });
     item.addEventListener("mouseleave", () => {
-      collageImages.map((image) => {
+      collageImages.map((image, index) => {
         image.style = null;
       });
     });
