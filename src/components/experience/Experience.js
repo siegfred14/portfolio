@@ -25,7 +25,23 @@ const Experience = () => {
                   <img src={codeclan} alt="" />
                 </div>
               </div>
-              <div class="back">{/* <!-- back side content --> */}</div>
+              <div class="back">
+                {/* <!-- back side content --> */}
+                <div>
+                  <ul>
+                    <li>Feasibility Study</li>
+                    <li>Information Gathering</li>
+                    <li>Receiving Data</li>
+                    <li>Mark Up and Stylesheet Development</li>
+                    <li>Coding</li>
+                    <li>Managing Software Workflow</li>
+                    <li>Debugging</li>
+                    <li>Interface</li>
+                    <li>Refining Functionality</li>
+                    <li>Search Engine Optimization</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -44,7 +60,17 @@ const Experience = () => {
                   <img src={kwatri} alt="" />
                 </div>
               </div>
-              <div class="back">{/* <!-- back side content --> */}</div>
+              <div class="back">
+                {/* <!-- back side content --> */}
+                <ul>
+                  <li>Web Services and APIs</li>
+                  <li>Data Storage Solutions</li>
+                  <li>Server-side Web Application Logic</li>
+                  <li>UI Integration</li>
+                  <li>Application Optimisation</li>
+                  <li>Tests, Security and Quality Control</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
