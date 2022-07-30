@@ -5,6 +5,7 @@ section > h5{
     display: grid;
     grid-template-columns: 50% 45%;
     gap: 5%;
+    place-items: center;
 
     .about_content{
         p{

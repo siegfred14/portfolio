@@ -8,6 +8,7 @@ section > h5 {
   -ms-grid-columns: 50% 45%;
       grid-template-columns: 50% 45%;
   gap: 5%;
+  place-items: center;
 }
 
 .about_container .about_content p {

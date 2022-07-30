@@ -1,18 +1,41 @@
-.flip-container {
-  margin: 50px;
+#experience {
+  background-color: aqua;
+}
+
+#experience .experience_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#experience .experience_container .card_one, #experience .experience_container .card_two {
+  width: 48%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 5px solid green;
+}
+
+#experience .experience_container .card_one .flip-container, #experience .experience_container .card_two .flip-container {
   -webkit-perspective: 1000;
           perspective: 1000;
   display: inline-block;
+  border: 5px solid blue;
+  width: 100%;
+  height: 400px;
 }
 
-.flip-container:hover .card {
+#experience .experience_container .card_one .flip-container:hover .card, #experience .experience_container .card_two .flip-container:hover .card {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
 .card, .front, .back {
-  width: 130px;
-  height: 195px;
+  width: 100%;
+  height: 100%;
 }
 
 .card {
@@ -27,20 +50,21 @@
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
+  border: 2px solid white;
 }
 
 .front {
-  z-index: 1;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
   background: no-repeat;
 }
 
 .back {
-  z-index: 2;
+  z-index: 1;
   /* back side, placed above front */
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
   background: no-repeat;
 }
 /*# sourceMappingURL=experience.css.map */
