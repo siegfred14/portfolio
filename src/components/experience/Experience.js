@@ -27,20 +27,20 @@ const Experience = () => {
               </div>
               <div class="back">
                 {/* <!-- back side content --> */}
-                <div>
-                  <ul>
-                    <li>Feasibility Study</li>
-                    <li>Information Gathering</li>
-                    <li>Receiving Data</li>
-                    <li>Mark Up and Stylesheet Development</li>
-                    <li>Coding</li>
-                    <li>Managing Software Workflow</li>
-                    <li>Debugging</li>
-                    <li>Interface</li>
-                    <li>Refining Functionality</li>
-                    <li>Search Engine Optimization</li>
-                  </ul>
-                </div>
+                <ul>
+                  <li>Feasibility Study</li>
+                  <li>Information Gathering</li>
+                  <li>Receiving Data</li>
+                  <li>Mark Up and Stylesheet Development</li>
+                  <li>Coding</li>
+                </ul>
+                <ul>
+                  <li>Managing Software Workflow</li>
+                  <li>Debugging</li>
+                  <li>Interface</li>
+                  <li>Refining Functionality</li>
+                  <li>Search Engine Optimization</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -66,6 +66,8 @@ const Experience = () => {
                   <li>Web Services and APIs</li>
                   <li>Data Storage Solutions</li>
                   <li>Server-side Web Application Logic</li>
+                </ul>
+                <ul>
                   <li>UI Integration</li>
                   <li>Application Optimisation</li>
                   <li>Tests, Security and Quality Control</li>
