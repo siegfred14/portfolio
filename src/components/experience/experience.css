@@ -54,10 +54,30 @@
 }
 
 .front {
+  text-align: center;
   z-index: 2;
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   background: no-repeat;
+}
+
+.front .experience_content .experience_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem;
+}
+
+.front .experience_content img {
+  width: 200px;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .back {

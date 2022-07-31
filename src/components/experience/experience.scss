@@ -41,9 +41,29 @@
     border: 2px solid white;
 }
 .front {
+    text-align: center;
     z-index: 2;
     transform: rotateY(0deg);
     background: no-repeat;
+    .experience_content{
+        .experience_details{
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+            
+            // :nth-first-child(){
+            //     padding: 5rem;
+            // }
+        }
+        
+        img{
+            width: 200px;
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
 }
 .back {
     z-index: 1; /* back side, placed above front */
