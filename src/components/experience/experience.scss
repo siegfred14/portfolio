@@ -7,7 +7,7 @@
         .card_one, .card_two{
             width: 45%;
             height: fit-content;
-            border: 5px solid green;
+            // border: 5px solid green;
             
             .flip-container {
                 // margin: 50px;
@@ -23,10 +23,10 @@
             }
         }
 
-        .card_two{
+        .card_one{
             img{
-                width: 180px;;
-                bottom: 0.5rem;
+                // width: 180px;;
+                bottom: 4rem;
             }
         }
     }
@@ -45,19 +45,21 @@
 .front, .back {
     backface-visibility: hidden;
     position: absolute;
-    border: 2px solid white;
+    border-radius: 2rem;
 }
 .front {
     text-align: center;
     z-index: 2;
     transform: rotateY(0deg);
     background: no-repeat;
-
+    background-image: linear-gradient(var(--color-bg-variant), rgb(92, 226, 250));
+    // border: 2px solid white;
+    
     h3{
         padding-top: 1rem;
         font-size: 20px;
     }
-
+    
     .experience_content{
         .experience_details{
             display: flex;
@@ -65,17 +67,17 @@
             gap: 0.5rem;
             
             // :nth-first-child(){
-            //     padding: 5rem;
-            // }
-            .experience_details_icon{
-                margin-top: 6px;
+                //     padding: 5rem;
+                // }
+                .experience_details_icon{
+                    margin-top: 6px;
+                }
             }
-        }
-        
+            
         img{
-            width: 200px;
+            width: 130px;
             position: absolute;
-            bottom: 1.5rem;
+            bottom: 3rem;
             left: 50%;
             transform: translate(-50%);            
         }
@@ -85,7 +87,8 @@
 .back {
     z-index: 1; /* back side, placed above front */
     transform: rotateY(180deg);
-    background:  no-repeat;
+    background: rgb(211, 244, 250) no-repeat;
+    border: 0.2rem solid var(--color-primary);
     h3{
         padding: 1rem;
         text-align: center;
@@ -95,7 +98,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        border: 2px solid brown;
+        // border: 2px solid brown;
         height: 60%;
 
         ul{
