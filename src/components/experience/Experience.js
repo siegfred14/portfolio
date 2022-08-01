@@ -27,20 +27,23 @@ const Experience = () => {
               </div>
               <div class="back">
                 {/* <!-- back side content --> */}
-                <ul>
-                  <li>Feasibility Study</li>
-                  <li>Information Gathering</li>
-                  <li>Receiving Data</li>
-                  <li>Mark Up and Stylesheet Development</li>
-                  <li>Coding</li>
-                </ul>
-                <ul>
-                  <li>Managing Software Workflow</li>
-                  <li>Debugging</li>
-                  <li>Interface</li>
-                  <li>Refining Functionality</li>
-                  <li>Search Engine Optimization</li>
-                </ul>
+                <h3>Two Years On-Going</h3>
+                <div className="back_lists">
+                  <ul>
+                    <li>Feasibility Study</li>
+                    <li>Information Gathering</li>
+                    <li>Receiving Data</li>
+                    <li>Mark Up and Stylesheet Development</li>
+                    <li>Managing Software Workflow</li>
+                  </ul>
+                  <ul>
+                    <li>Coding</li>
+                    <li>Debugging</li>
+                    <li>Interface</li>
+                    <li>Refining Functionality</li>
+                    <li>Search Engine Optimization</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -62,16 +65,19 @@ const Experience = () => {
               </div>
               <div class="back">
                 {/* <!-- back side content --> */}
-                <ul>
-                  <li>Web Services and APIs</li>
-                  <li>Data Storage Solutions</li>
-                  <li>Server-side Web Application Logic</li>
-                </ul>
-                <ul>
-                  <li>UI Integration</li>
-                  <li>Application Optimisation</li>
-                  <li>Tests, Security and Quality Control</li>
-                </ul>
+                <h3>Five Years of Service </h3>
+                <div className="back_lists">
+                  <ul>
+                    <li>Web Services and APIs</li>
+                    <li>Data Storage Solutions</li>
+                    <li>Server-side Web Application Logic</li>
+                  </ul>
+                  <ul>
+                    <li>UI Integration</li>
+                    <li>Application Optimisation</li>
+                    <li>Tests, Security and Quality Control</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

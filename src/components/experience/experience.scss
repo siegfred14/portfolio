@@ -69,4 +69,30 @@
     z-index: 1; /* back side, placed above front */
     transform: rotateY(180deg);
     background:  no-repeat;
+    h3{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .back_lists{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid brown;
+        height: 60%;
+
+        ul{
+            padding: 1rem;
+            &:nth-child(even){
+                text-align: right;
+            }
+            li{
+                font-size: 14px;
+                // list-style: circle;
+                &:nth-child(even){
+                    color: red;
+                }
+            }
+        }
+    }
 }
