@@ -2,6 +2,7 @@ import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
+import { MdFingerprint } from "react-icons/md";
 import codeclan from "../../img/code_clan.png";
 import kwatri from "../../img/Kwatri.jpg";
 
@@ -24,6 +25,9 @@ const Experience = () => {
                     <h4>Code Clan Nigeria</h4>
                   </article>
                   <img src={codeclan} alt="" />
+                  <h5 className="tap_here">
+                    <MdFingerprint className="icon" /> Tap
+                  </h5>
                 </div>
               </div>
               <div class="back">
@@ -89,6 +93,9 @@ const Experience = () => {
                     <h4>Kwatri Digital</h4>
                   </article>
                   <img src={kwatri} alt="" />
+                  <h5 className="tap_here">
+                    <MdFingerprint className="icon" /> Tap Me
+                  </h5>
                 </div>
               </div>
               <div class="back">

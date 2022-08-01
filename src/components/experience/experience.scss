@@ -139,3 +139,33 @@
         }
     }
 }
+
+/* -----------Media Queries for Medium Devices----------- */
+@media screen and (max-width: 1180px) {
+    .back{
+        .back_lists{
+            margin: 5px;
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 820px){
+    .experience_container{
+        // background-color: yellow;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .card_one, .card_two{
+            margin-top: 3rem;
+            width: 70%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+}

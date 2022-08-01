@@ -139,4 +139,33 @@
 .back .back_lists ul .list_icon {
   padding-top: 3px;
 }
+
+/* -----------Media Queries for Medium Devices----------- */
+@media screen and (max-width: 1180px) {
+  .back .back_lists {
+    margin: 5px;
+  }
+  .back .back_lists ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .experience_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .experience_container .card_one, .experience_container .card_two {
+    margin-top: 3rem;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
 /*# sourceMappingURL=experience.css.map */
