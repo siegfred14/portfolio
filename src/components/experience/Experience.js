@@ -1,6 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { FaCanadianMapleLeaf } from "react-icons/fa";
 import codeclan from "../../img/code_clan.png";
 import kwatri from "../../img/Kwatri.jpg";
 
@@ -30,18 +31,45 @@ const Experience = () => {
                 <h3>Two Years On-Going</h3>
                 <div className="back_lists">
                   <ul>
-                    <li>Feasibility Study</li>
-                    <li>Information Gathering</li>
-                    <li>Receiving Data</li>
-                    <li>Mark Up and Stylesheet Development</li>
-                    <li>Managing Software Workflow</li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Feasibility
+                      Study
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Information
+                      Gathering
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Receiving
+                      Data
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Mark Up and
+                      Stylesheet Development
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Managing
+                      Software Workflow
+                    </li>
                   </ul>
                   <ul>
-                    <li>Coding</li>
-                    <li>Debugging</li>
-                    <li>Interface</li>
-                    <li>Refining Functionality</li>
-                    <li>Search Engine Optimization</li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Coding
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Debugging
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Interface
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Refining
+                      Functionality
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Search
+                      Engine Optimization
+                    </li>
                   </ul>
                 </div>
               </div>

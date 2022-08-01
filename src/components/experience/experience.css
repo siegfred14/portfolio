@@ -94,13 +94,16 @@
   /* back side, placed above front */
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  background: #d3f4fa no-repeat;
-  border: 0.2rem solid var(--color-primary);
+  background: #c5f2fa url(../../img/Nova_Scotia.webp) no-repeat fixed center;
+  background-size: cover;
+  color: white;
 }
 
 .back h3 {
   padding: 1rem;
   text-align: center;
+  color: red;
+  font-size: 1.2rem;
 }
 
 .back .back_lists {
@@ -114,21 +117,26 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 60%;
-}
-
-.back .back_lists ul {
-  padding: 1rem;
-}
-
-.back .back_lists ul:nth-child(even) {
-  text-align: right;
+  margin: 5px 10px;
 }
 
 .back .back_lists ul li {
-  font-size: 14px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .back .back_lists ul li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.4);
   color: red;
+}
+
+.back .back_lists ul .list_icon {
+  padding-top: 3px;
 }
 /*# sourceMappingURL=experience.css.map */
