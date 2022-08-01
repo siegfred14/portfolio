@@ -1,11 +1,11 @@
 #experience{
-    background-color: aqua;
+    // background-color: aqua;
     .experience_container{
         display: flex;
         justify-content: space-evenly;
     
         .card_one, .card_two{
-            width: 40%;
+            width: 45%;
             height: fit-content;
             border: 5px solid green;
             
@@ -13,13 +13,20 @@
                 // margin: 50px;
                 perspective: 1000;
                 display: inline-block;
-                border: 5px solid blue;
+                // border: 5px solid blue;
                 width: 100%;
                 height: 300px;
                 
                 &:hover .card {
                     transform: rotateY(180deg);
                 }
+            }
+        }
+
+        .card_two{
+            img{
+                width: 180px;;
+                bottom: 0.5rem;
             }
         }
     }
@@ -45,26 +52,36 @@
     z-index: 2;
     transform: rotateY(0deg);
     background: no-repeat;
+
+    h3{
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+
     .experience_content{
         .experience_details{
             display: flex;
             justify-content: center;
-            padding: 0.5rem;
+            gap: 0.5rem;
             
             // :nth-first-child(){
             //     padding: 5rem;
             // }
+            .experience_details_icon{
+                margin-top: 6px;
+            }
         }
         
         img{
             width: 200px;
             position: absolute;
-            bottom: 2rem;
+            bottom: 1.5rem;
             left: 50%;
-            transform: translate(-50%);
+            transform: translate(-50%);            
         }
     }
 }
+
 .back {
     z-index: 1; /* back side, placed above front */
     transform: rotateY(180deg);

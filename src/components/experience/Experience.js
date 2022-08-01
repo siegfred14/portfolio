@@ -19,7 +19,7 @@ const Experience = () => {
                 <h3>Frontend Developer</h3>
                 <div className="experience_content">
                   <article className="experience_details">
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className="experience_details_icon" />
                     <h4>Code Clan Nigeria</h4>
                   </article>
                   <img src={codeclan} alt="" />
@@ -57,7 +57,7 @@ const Experience = () => {
                 <h3>Backend Developer</h3>
                 <div className="experience_content">
                   <article className="experience_details">
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className="experience_details_icon" />
                     <h4>Kwatri Digital</h4>
                   </article>
                   <img src={kwatri} alt="" />
