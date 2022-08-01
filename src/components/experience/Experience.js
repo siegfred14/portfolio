@@ -96,14 +96,32 @@ const Experience = () => {
                 <h3>Five Years of Service </h3>
                 <div className="back_lists">
                   <ul>
-                    <li>Web Services and APIs</li>
-                    <li>Data Storage Solutions</li>
-                    <li>Server-side Web Application Logic</li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Web Services
+                      and APIs
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Data Storage
+                      Solutions
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Server-side
+                      Web Application Logic
+                    </li>
                   </ul>
                   <ul>
-                    <li>UI Integration</li>
-                    <li>Application Optimisation</li>
-                    <li>Tests, Security and Quality Control</li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> UI
+                      Integration
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Application
+                      Optimisation
+                    </li>
+                    <li>
+                      <FaCanadianMapleLeaf className="list_icon" /> Tests,
+                      Security and Quality Control
+                    </li>
                   </ul>
                 </div>
               </div>
