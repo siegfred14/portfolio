@@ -83,10 +83,25 @@
 .front .experience_content img {
   width: 130px;
   position: absolute;
-  bottom: 3rem;
+  bottom: 3.5rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+}
+
+.front .experience_content .tap_here {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  line-height: 10px;
+  display: none;
+}
+
+.front .experience_content .tap_here .icon {
+  font-size: 20px;
+  margin-top: 6px;
 }
 
 .back {
@@ -142,6 +157,9 @@
 
 /* -----------Media Queries for Medium Devices----------- */
 @media screen and (max-width: 1180px) {
+  .front .experience_content .experience_details .tap_here {
+    display: block;
+  }
   .back .back_lists {
     margin: 5px;
   }
@@ -158,14 +176,19 @@
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    background-color: pink;
   }
   .experience_container .card_one, .experience_container .card_two {
+    background-color: yellow;
     margin-top: 3rem;
-    width: 70%;
+    width: 75%;
     position: relative;
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+  }
+  .experience_container .card_one .flip-container .card .back .back_lists ul li, .experience_container .card_two .flip-container .card .back .back_lists ul li {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=experience.css.map */

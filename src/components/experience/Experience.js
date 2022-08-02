@@ -26,7 +26,7 @@ const Experience = () => {
                   </article>
                   <img src={codeclan} alt="" />
                   <h5 className="tap_here">
-                    <MdFingerprint className="icon" /> Tap
+                    <MdFingerprint className="icon" /> <br /> Tap Me
                   </h5>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Experience = () => {
                   </article>
                   <img src={kwatri} alt="" />
                   <h5 className="tap_here">
-                    <MdFingerprint className="icon" /> Tap Me
+                    <MdFingerprint className="icon" /> <br /> Tap Me
                   </h5>
                 </div>
               </div>
