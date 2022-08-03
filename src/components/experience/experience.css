@@ -9,9 +9,6 @@
 
 #experience .experience_container .card_one, #experience .experience_container .card_two {
   width: 45%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 #experience .experience_container .card_one .flip-container, #experience .experience_container .card_two .flip-container {
@@ -181,11 +178,13 @@
   .experience_container .card_one, .experience_container .card_two {
     background-color: yellow;
     margin-top: 3rem;
-    width: 75%;
     position: relative;
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+  }
+  .experience_container .card_one .flip-container, .experience_container .card_two .flip-container {
+    width: 100%;
   }
   .experience_container .card_one .flip-container .card .back .back_lists ul li, .experience_container .card_two .flip-container .card .back .back_lists ul li {
     font-size: 13px;

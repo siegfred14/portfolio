@@ -6,7 +6,7 @@
     
         .card_one, .card_two{
             width: 45%;
-            height: fit-content;
+            // height: fit-content;
             // border: 5px solid green;
             
             .flip-container {
@@ -186,12 +186,13 @@
         .card_one, .card_two{
             background-color: yellow;
             margin-top: 3rem;
-            width: 75%;
+            // width: 100px;
             position: relative;
             left: 50%;
             transform: translate(-50%);
 
             .flip-container{
+                width: 100%;
                 .card{
                     .back{
                         .back_lists{
