@@ -2,10 +2,12 @@
     // background-color: aqua;
     .experience_container{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
     
         .card_one, .card_two{
-            width: 45%;
+            flex-basis: 45%;
+            flex-grow: 100%;
             // height: fit-content;
             // border: 5px solid green;
             
@@ -180,19 +182,18 @@
 @media screen and (max-width: 820px){
     .experience_container{
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         background-color: pink;
         
         .card_one, .card_two{
             background-color: yellow;
             margin-top: 3rem;
-            // width: 100px;
+            width: 80%;
             position: relative;
             left: 50%;
             transform: translate(-50%);
 
             .flip-container{
-                width: 100%;
                 .card{
                     .back{
                         .back_lists{

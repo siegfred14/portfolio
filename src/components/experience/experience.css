@@ -2,13 +2,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
 #experience .experience_container .card_one, #experience .experience_container .card_two {
-  width: 45%;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  -webkit-box-flex: 100%;
+      -ms-flex-positive: 100%;
+          flex-grow: 100%;
 }
 
 #experience .experience_container .card_one .flip-container, #experience .experience_container .card_two .flip-container {
@@ -171,20 +177,19 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: pink;
   }
   .experience_container .card_one, .experience_container .card_two {
     background-color: yellow;
     margin-top: 3rem;
+    width: 80%;
     position: relative;
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
-  }
-  .experience_container .card_one .flip-container, .experience_container .card_two .flip-container {
-    width: 100%;
   }
   .experience_container .card_one .flip-container .card .back .back_lists ul li, .experience_container .card_two .flip-container .card .back .back_lists ul li {
     font-size: 13px;
