@@ -204,4 +204,13 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .experience_container .card_one, .experience_container .card_two {
+    margin-top: 0;
+  }
+  .experience_container .card_one .flip-container .card .back .back_lists ul li, .experience_container .card_two .flip-container .card .back .back_lists ul li {
+    font-size: 10px;
+  }
+}
 /*# sourceMappingURL=experience.css.map */

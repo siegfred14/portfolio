@@ -233,3 +233,25 @@
         }
     }
 }
+
+@media screen and (max-width: 280px){
+    .experience_container{     
+        .card_one, .card_two{
+            margin-top: 0;   
+            .flip-container{
+                .card{
+                    .back{
+                        .back_lists{
+                            ul{
+                                li{
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
