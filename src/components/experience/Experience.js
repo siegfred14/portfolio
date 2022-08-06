@@ -25,9 +25,6 @@ const Experience = () => {
                     <h4>Code Clan Nigeria</h4>
                   </article>
                   <img src={codeclan} alt="" />
-                  <h5 className="tap_here">
-                    <MdFingerprint className="icon" /> <br /> Tap Me
-                  </h5>
                 </div>
               </div>
               <div class="back">
@@ -93,9 +90,6 @@ const Experience = () => {
                     <h4>Kwatri Digital</h4>
                   </article>
                   <img src={kwatri} alt="" />
-                  <h5 className="tap_here">
-                    <MdFingerprint className="icon" /> <br /> Tap Me
-                  </h5>
                 </div>
               </div>
               <div class="back">
@@ -136,6 +130,10 @@ const Experience = () => {
           </div>
         </div>
       </div>
+
+      <h5 className="tap_here">
+        <MdFingerprint className="icon" /> <br /> Tap Cards
+      </h5>
     </section>
   );
 };

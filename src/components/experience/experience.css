@@ -34,6 +34,15 @@
   bottom: 4rem;
 }
 
+#experience .tap_here {
+  display: none;
+}
+
+#experience .tap_here .icon {
+  font-size: 20px;
+  margin-top: 6px;
+}
+
 .card, .front, .back {
   width: 100%;
   height: 100%;
@@ -92,21 +101,6 @@
           transform: translate(-50%);
 }
 
-.front .experience_content .tap_here {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  line-height: 10px;
-  display: none;
-}
-
-.front .experience_content .tap_here .icon {
-  font-size: 20px;
-  margin-top: 6px;
-}
-
 .back {
   z-index: 1;
   /* back side, placed above front */
@@ -160,9 +154,6 @@
 
 /* -----------Media Queries for Medium Devices----------- */
 @media screen and (max-width: 1180px) {
-  .front .experience_content .experience_details .tap_here {
-    display: block;
-  }
   .back .back_lists {
     margin: 5px;
   }
@@ -180,10 +171,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: pink;
   }
   .experience_container .card_one, .experience_container .card_two {
-    background-color: yellow;
     margin-top: 3rem;
     width: 80%;
     position: relative;
@@ -192,7 +181,7 @@
             transform: translate(-50%);
   }
   .experience_container .card_one .flip-container .card .back .back_lists ul li, .experience_container .card_two .flip-container .card .back .back_lists ul li {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
