@@ -67,7 +67,55 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        {/* photo editing */}
+
+        {/* picture editing */}
+        <article className="service">
+          <div className="service_head">
+            <h3>Picture Editing</h3>
+          </div>
+
+          <ul className="service_list">
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Knowledge of photography techniques.</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Knowledge of photo editing software tools</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Creativity and artistic mindset</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Leadership and motivational skills.</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Organization and time management abilities.</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Collaboration and team-building abilities</p>
+            </li>
+            {/* <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Follow best practices such as continuous integration, SCRUM,
+                refactoring and code standards
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Driving continuous adoption and integration of relevant new
+                technologies into design
+              </p>
+            </li> */}
+          </ul>
+        </article>
+
         {/* sales and public speaking */}
       </div>
     </section>
