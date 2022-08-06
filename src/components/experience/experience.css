@@ -160,6 +160,9 @@
   .back .back_lists ul li {
     font-size: 14px;
   }
+  .tap_here {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 820px) {
