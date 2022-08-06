@@ -1,4 +1,4 @@
-import "./skills.scss";
+import "./skills.css";
 
 import React from "react";
 
