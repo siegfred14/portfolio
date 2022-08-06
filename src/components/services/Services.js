@@ -116,7 +116,78 @@ const Services = () => {
           </ul>
         </article>
 
+        {/* Systems Support */}
+        <article className="service">
+          <div className="service_head">
+            <h3>Systems Support Engineering</h3>
+          </div>
+
+          <ul className="service_list">
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Analyzing user requirements and design and develop system
+                architecture and specifications
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Performing research, design, development and integration of
+                computer hardware such as bios, memory, storage and
+                microprocessors
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Evaluating, documenting and optimizing capacity and performance
+                of information and communication system networks
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Undertaking research, design and development of network
+                architecture of information and communication systems
+              </p>
+            </li>
+          </ul>
+        </article>
+
         {/* sales and public speaking */}
+        {/* <article className="service">
+          <div className="service_head">
+            <h3>Sales/Public Speaking</h3>
+          </div>
+
+          <ul className="service_list">
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Gathering, investigating, and summarizing market data and trends
+                to draft reports
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Implementing new sales plans and advertising</p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Recruiting, training, scheduling, coaching, and managing
+                marketing and sales teams to meet sales and marketing human
+                resource objectives
+              </p>
+            </li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>Conducting market research on rival products</p>
+            </li>
+            
+          </ul>
+        </article> */}
       </div>
     </section>
   );
