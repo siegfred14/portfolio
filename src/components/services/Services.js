@@ -217,7 +217,7 @@ const Services = () => {
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>Conducting market research on rival products</p>
             </li>
-            
+
           </ul>
         </article> */}
       </div>
