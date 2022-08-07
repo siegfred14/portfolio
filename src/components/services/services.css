@@ -7,7 +7,27 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 2rem;
+}
+
+#services .services_container .service:first-child {
+  background-color: #6c6ce5;
+}
+
+#services .services_container .service:nth-child(2) {
+  background-color: #f9d74c;
+}
+
+#services .services_container .service:nth-child(3) {
+  background-color: #f97b8b;
+}
+
+#services .services_container .service .service_list li img {
+  width: 30%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 #services .services_container .service .service_list li p {

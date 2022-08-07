@@ -3,11 +3,29 @@
     .services_container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 3rem;
+        gap: 2rem;
 
+        
         .service{
+            &:first-child{
+                background-color: rgb(108, 108, 229);
+            }
+
+            &:nth-child(2){
+                background-color: rgb(249, 215, 76);
+            }
+
+            &:nth-child(3){
+                background-color: rgb(249, 123, 139);
+            }
             .service_list{
                 li{
+                    img{
+                        width: 30%;
+                        position: relative;
+                        left: 50%;
+                        transform: translate(-50%);
+                    }
                     p{
                         font-size: 12px;
                     }

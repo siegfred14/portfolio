@@ -1,6 +1,9 @@
 import React from "react";
 import "./services.css";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
+import web from "../../img/service-2.svg";
+import photo from "../../img/service-3.svg";
+import CPE from "../../img/CPE-Icon.png";
 
 const Services = () => {
   return (
@@ -17,7 +20,8 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-              <FaCanadianMapleLeaf className="service_list_icon" />
+              {/* <FaCanadianMapleLeaf className="service_list_icon" /> */}
+              <img src={web} alt="" />
               <p>
                 Employing state-of-the-art tools and technologies, following
                 best practices to produce the client side of websites and web
@@ -85,7 +89,8 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-              <FaCanadianMapleLeaf className="service_list_icon" />
+              {/* <FaCanadianMapleLeaf className="service_list_icon" /> */}
+              <img src={photo} alt="" />
               <p>
                 Reviewing, editing and identifying relevant photos, to make them
                 more appealing for publication, dissemination, personal targets
@@ -141,9 +146,10 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-              <FaCanadianMapleLeaf className="service_list_icon" />
+              {/* <FaCanadianMapleLeaf className="service_list_icon" /> */}
+              <img src={CPE} alt="" />
               <p>
-                Analyzing user requirements and design and develop system
+                Analyzing user requirements and design to develop system
                 architecture and specifications by Performing research, design,
                 development and integration of computer hardware such as bios,
                 memory, storage and microprocessors
