@@ -14,22 +14,63 @@
 #services .services_container .service {
   text-align: center;
   padding: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #services .services_container .service .service_head h3 {
   color: #fff;
 }
 
+#services .services_container .service:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
 #services .services_container .service:first-child {
   background-color: #6c6ce5;
+}
+
+#services .services_container .service:first-child:hover {
+  background: transparent;
+  -webkit-box-shadow: 0 0 5px #6c6ce5;
+          box-shadow: 0 0 5px #6c6ce5;
+  cursor: default;
+}
+
+#services .services_container .service:first-child:hover h3, #services .services_container .service:first-child:hover p {
+  color: #6c6ce5;
 }
 
 #services .services_container .service:nth-child(2) {
   background-color: #f9d74c;
 }
 
+#services .services_container .service:nth-child(2):hover {
+  background: transparent;
+  cursor: default;
+  -webkit-box-shadow: 0 0 5px #dfb408;
+          box-shadow: 0 0 5px #dfb408;
+}
+
+#services .services_container .service:nth-child(2):hover h3, #services .services_container .service:nth-child(2):hover p {
+  color: #dfb408;
+}
+
 #services .services_container .service:nth-child(3) {
   background-color: #f97b8b;
+}
+
+#services .services_container .service:nth-child(3):hover {
+  background: transparent;
+  -webkit-box-shadow: 0 0 5px #df5d6e;
+          box-shadow: 0 0 5px #df5d6e;
+  cursor: default;
+}
+
+#services .services_container .service:nth-child(3):hover h3, #services .services_container .service:nth-child(3):hover p {
+  color: #df5c6e;
 }
 
 #services .services_container .service .service_list li img {

@@ -10,6 +10,7 @@
         .service{
             text-align: center;
             padding: 2rem;
+            transition: 0.5s;
             // border-radius: 1.5rem 0;
             
             .service_head{
@@ -17,18 +18,54 @@
                     color: #fff;
                 }
             }
+
+            &:hover{
+                background: transparent;
+                border-color: var(--color-primary-variant);
+                cursor: default;
+            }
             
             &:first-child{
                 background-color: rgb(108, 108, 229);
+                &:hover{
+                    background: transparent;
+                    box-shadow:0 0 5px rgb(108, 108, 229);
+                    cursor: default;
+                    
+                    h3, p{
+                        color: rgb(108, 108, 229);
+                    }
+                }
             }
 
             &:nth-child(2){
                 background-color: rgb(249, 215, 76);
+                &:hover{
+                    background: transparent;
+                    // border: 1px solid rgb(249, 215, 76);
+                    cursor: default;
+                    box-shadow: 0 0 5px rgb(223, 180, 8);
+                    
+                    h3, p{
+                        color: rgb(223, 180, 8);
+                        // text-shadow: 0 0 10px rgb(7, 80, 7);
+                    }
+                }
             }
 
             &:nth-child(3){
                 background-color: rgb(249, 123, 139);
+                &:hover{
+                    background: transparent;
+                    box-shadow:0 0 5px rgb(223, 93, 110);
+                    cursor: default;
+                    
+                    h3, p{
+                        color: rgb(223, 92, 110);
+                    }
+                }
             }
+
             .service_list{
                 li{
                     img{
