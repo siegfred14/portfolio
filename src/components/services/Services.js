@@ -19,6 +19,15 @@ const Services = () => {
             <li>
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>
+                Employing state-of-the-art tools and technologies, following
+                best practices to produce the client side of websites and web
+                applications, allowing users to see and interact with them
+                directly.
+              </p>
+            </li>
+            {/* <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
                 Writing well designed, testable, efficient code by employing
                 best software development practices
               </p>
@@ -64,7 +73,7 @@ const Services = () => {
                 Driving continuous adoption and integration of relevant new
                 technologies into design
               </p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -76,6 +85,14 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Reviewing, editing and identifying relevant photos, to make them
+                more appealing for publication, dissemination, personal targets
+                or to meet the organization's photography needs.
+              </p>
+            </li>
+            {/* <li>
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>Knowledge of photography techniques.</p>
             </li>
@@ -98,7 +115,7 @@ const Services = () => {
             <li>
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>Collaboration and team-building abilities</p>
-            </li>
+            </li> */}
             {/* <li>
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>
@@ -119,7 +136,7 @@ const Services = () => {
         {/* Systems Support */}
         <article className="service">
           <div className="service_head">
-            <h3>Systems Support Engineering</h3>
+            <h3>Systems Support</h3>
           </div>
 
           <ul className="service_list">
@@ -127,10 +144,19 @@ const Services = () => {
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>
                 Analyzing user requirements and design and develop system
+                architecture and specifications by Performing research, design,
+                development and integration of computer hardware such as bios,
+                memory, storage and microprocessors
+              </p>
+            </li>
+            {/* <li>
+            <li>
+              <FaCanadianMapleLeaf className="service_list_icon" />
+              <p>
+                Analyzing user requirements and design and develop system
                 architecture and specifications
               </p>
             </li>
-            <li>
               <FaCanadianMapleLeaf className="service_list_icon" />
               <p>
                 Performing research, design, development and integration of
@@ -151,7 +177,7 @@ const Services = () => {
                 Undertaking research, design and development of network
                 architecture of information and communication systems
               </p>
-            </li>
+            </li> */}
           </ul>
         </article>
 

@@ -1,0 +1,24 @@
+#services{
+    margin-bottom: 5rem;
+    .services_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+
+        .service{
+            .service_list{
+                li{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// colors
+// #6b74ec blue
+// #ffd14b yellow
+// #ffd14b pitch
