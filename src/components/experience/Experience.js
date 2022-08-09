@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { MdFingerprint } from "react-icons/md";
 import codeclan from "../../img/code_clan.png";
-import kwatri from "../../img/Kwatri.jpg";
+import kwatri from "../../img/kwatri.png";
 
 const Experience = () => {
   return (
