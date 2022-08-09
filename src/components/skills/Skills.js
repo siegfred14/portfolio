@@ -23,7 +23,7 @@ export const Skills = () => {
         <div className="skill_box html5">
           <div className="skill_title">
             <div className="img">
-              <img src={html5} alt="HTML5" />
+              <img src={html5} className="skill-icon" alt="HTML5" />
             </div>
             <h3>HTML5</h3>
           </div>
@@ -31,7 +31,7 @@ export const Skills = () => {
         <div className="skill_box CSS">
           <div className="skill_title">
             <div className="img">
-              <img src={css3} alt="CSS3" />
+              <img src={css3} className="skill-icon" alt="CSS3" />
             </div>
             <h3>CSS3 | Sass</h3>
           </div>
@@ -39,7 +39,7 @@ export const Skills = () => {
         <div className="skill_box JS">
           <div className="skill_title">
             <div className="img">
-              <img src={js} alt="JS" />
+              <img src={js} className="skill-icon" alt="JS" />
             </div>
             <h3>JavaScript</h3>
           </div>
@@ -47,7 +47,7 @@ export const Skills = () => {
         <div className="skill_box mysql">
           <div className="skill_title">
             <div className="img">
-              <img src={mysql} alt="MySQL" />
+              <img src={mysql} className="skill-icon" alt="MySQL" />
             </div>
             <h3>MySQL</h3>
           </div>
@@ -55,7 +55,7 @@ export const Skills = () => {
         <div className="skill_box photoshop">
           <div className="skill_title">
             <div className="img">
-              <img src={photoshop} alt="Photoshop" />
+              <img src={photoshop} className="skill-icon" alt="Photoshop" />
             </div>
             <h3>Photoshop</h3>
           </div>
@@ -63,7 +63,7 @@ export const Skills = () => {
         <div className="skill_box html5">
           <div className="skill_title">
             <div className="img">
-              <img src={git} alt="Git" />
+              <img src={git} className="skill-icon" alt="Git" />
             </div>
             <h3>Git | Github</h3>
           </div>
@@ -71,7 +71,7 @@ export const Skills = () => {
         <div className="skill_box html5">
           <div className="skill_title">
             <div className="img">
-              <img src={react} alt="React" />
+              <img src={react} className="skill-icon" alt="React" />
             </div>
             <h3>React</h3>
           </div>
@@ -79,7 +79,7 @@ export const Skills = () => {
         <div className="skill_box python">
           <div className="skill_title">
             <div className="img">
-              <img src={python} alt="Python" />
+              <img src={python} className="skill-icon" alt="Python" />
             </div>
             <h3>Python</h3>
           </div>
@@ -87,7 +87,7 @@ export const Skills = () => {
         <div className="skill_box django">
           <div className="skill_title">
             <div className="img">
-              <img src={django} alt="Django" />
+              <img src={django} className="skill-icon" alt="Django" />
             </div>
             <h3>Django [Rest Framework]</h3>
           </div>
