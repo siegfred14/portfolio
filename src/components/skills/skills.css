@@ -39,6 +39,28 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.skills_container .skill_box .skill_title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 2px 0 0 2px;
+  background-color: black;
+}
+
+.skills_container .skill_box .skill_title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 0 2px 2px 0;
+  background-color: black;
+}
+
 .skills_container .skill_box .skill_title .img {
   background-color: green;
   -webkit-box-flex: 0;

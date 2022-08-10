@@ -25,10 +25,33 @@ p{
             padding: 0.5rem;
             margin-bottom: 0.5rem;
 
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 50%;
+                width: 35px;
+                height: 4px;
+                border-radius: 2px 0 0 2px;
+                background-color: black;
+            }
+
+            &::before{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 35px;
+                height: 4px;
+                border-radius: 0 2px 2px 0;
+                background-color: black;
+            }
+
             .img{
                 background-color: green;
                 flex: 0 0 100px;
                 height: 100px;
+
                 .skill_icon{
                     width: 80px;
                     // z-index: 2; for shaded left
@@ -48,6 +71,7 @@ p{
             //     width: 50%;
             //     height: 100px;
             //     background: rgba(100, 100, 100, 0.5);
+            //     border-radius: 45px 0 0 45px;
             // }
 
             h3{
