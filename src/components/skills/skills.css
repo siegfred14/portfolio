@@ -90,10 +90,44 @@
   color: red;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0.5rem;
+  }
+  .container .skill_box {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+  }
+  .container .skill_box {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding: 0.4rem;
+  }
+  .container .skill_box {
+    padding: 0.4rem;
+  }
+  .container .skill_box .skill_title h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 /*# sourceMappingURL=skills.css.map */
