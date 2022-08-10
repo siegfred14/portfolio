@@ -80,3 +80,9 @@ p{
         }
     }
 }
+
+@media screen and (max-width: 990px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -80,4 +80,11 @@ p {
 .skills_container .skill_box .skill_title h3 {
   color: green;
 }
+
+@media screen and (max-width: 990px) {
+  .container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*# sourceMappingURL=skills.css.map */
