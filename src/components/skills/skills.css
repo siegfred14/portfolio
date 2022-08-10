@@ -1,7 +1,3 @@
-p {
-  font-size: 24px;
-}
-
 .skills_container {
   display: -ms-grid;
   display: grid;
@@ -79,6 +75,19 @@ p {
 
 .skills_container .skill_box .skill_title h3 {
   color: green;
+}
+
+.soft_skills {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.soft_skills .soft_skill:nth-child(even) {
+  color: green;
+}
+
+.soft_skills .soft_skill:nth-child(odd) {
+  color: red;
 }
 
 @media screen and (max-width: 990px) {

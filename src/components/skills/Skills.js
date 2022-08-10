@@ -89,13 +89,17 @@ export const Skills = () => {
             <div className="img">
               <img src={django} className="skill_icon drf" alt="Django" />
             </div>
-            <h3 className="django_h3">Django [Rest Framework]</h3>
+            <h3>Django [Rest Framework]</h3>
           </div>
         </div>
-
-        <div className="soft_skills">
-          <small>team player</small>
-        </div>
+      </div>
+      <div className="soft_skills container">
+        <small className="soft_skill">Team Player | </small>
+        <small className="soft_skill">Strong Communication | </small>
+        <small className="soft_skill">Active Listening | </small>
+        <small className="soft_skill">Leadership | </small>
+        <small className="soft_skill">Public Speaking | </small>
+        <small className="soft_skill">Humorous</small>
       </div>
     </section>
   );
