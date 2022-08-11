@@ -35,28 +35,6 @@
   margin-bottom: 0.5rem;
 }
 
-.skills_container .skill_box .skill_title::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  width: 35px;
-  height: 4px;
-  border-radius: 2px 0 0 2px;
-  background-color: black;
-}
-
-.skills_container .skill_box .skill_title::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 35px;
-  height: 4px;
-  border-radius: 0 2px 2px 0;
-  background-color: black;
-}
-
 .skills_container .skill_box .skill_title .img {
   background-color: green;
   -webkit-box-flex: 0;
@@ -91,41 +69,27 @@
 }
 
 @media screen and (max-width: 767px) {
-  .container {
+  .skills_container {
     padding: 0.5rem;
   }
-  .container .skill_box {
+  .skills_container .skill_box {
     padding: 0.5rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .container {
+  .skills_container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    padding: 0.5rem;
+    padding: 0;
   }
-  .container .skill_box {
-    padding: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    padding: 0.4rem;
-  }
-  .container .skill_box {
-    padding: 0.4rem;
-  }
-  .container .skill_box .skill_title h3 {
-    font-size: 12px;
+  .skills_container .skill_box {
+    padding: 0.2rem;
   }
 }
 
 @media screen and (max-width: 280px) {
-  .container {
+  .skills_container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
