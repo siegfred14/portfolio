@@ -10,7 +10,7 @@
 
     .skill_box{
         padding: 1rem;
-        background-color: aquamarine;
+        // background-color: aquamarine;
 
         .skill_title{
             display: flex;
@@ -42,7 +42,7 @@
             // }
 
             .img{
-                background-color: green;
+                // background-color: green;
                 flex: 0 0 100px;
                 height: 100px;
                 position: relative;
@@ -60,14 +60,30 @@
                     // z-index: 2;
                 }
 
+                .git{
+                    animation-name: two_items_a;
+                    animation-duration: 4s;
+                    animation-iteration-count: infinite;
+                    animation-direction: normal;
+                }
+                
                 .github{
                     width: 150px;
+                    animation-name: two_items_a;
+                    animation-duration: 4s;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate-reverse;
+                    // animation-timing-function: ease-in-out;
                     // left: 50%;
                     // transform: translate(-50%);
                 }
                 .drf{
                     top: 22%;
                     width: 80%;
+                    animation-name: two_items_a;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                    animation-direction: reverse;
                 }
 
                 .bootstrap, .sass{
@@ -76,6 +92,10 @@
 
                 .django{
                     width: 140px;
+                    animation-name: two_items_a;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                    animation-direction: normal;
                 }
             }
 
@@ -95,6 +115,27 @@
                 color: green;
             }
         }
+    }
+}
+
+@keyframes two_items_a {
+    0% {
+        // z-index: 2;
+        opacity: 1;
+    }
+    50%{
+        // z-index: 0;
+        opacity: 0;
+    }
+}
+@keyframes two_items_b {
+    0%{
+        // z-index: 0;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        z-index: 0;
     }
 }
 
