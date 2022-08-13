@@ -55,37 +55,19 @@
 }
 
 .skills_container .skill_box .skill_title .img .git {
-  -webkit-animation-name: two_items_a;
-          animation-name: two_items_a;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
+  -webkit-animation: two_items_a 5s infinite normal;
+          animation: two_items_a 5s infinite normal;
 }
 
 .skills_container .skill_box .skill_title .img .github {
   width: 150px;
-  -webkit-animation-name: two_items_a;
-          animation-name: two_items_a;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  animation: two_items_a 5s infinite reverse;
 }
 
 .skills_container .skill_box .skill_title .img .drf {
   top: 22%;
   width: 80%;
-  -webkit-animation-name: two_items_a;
-          animation-name: two_items_a;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  animation-direction: reverse;
+  animation: two_items_a 5s infinite reverse;
 }
 
 .skills_container .skill_box .skill_title .img .bootstrap, .skills_container .skill_box .skill_title .img .sass {
@@ -94,14 +76,8 @@
 
 .skills_container .skill_box .skill_title .img .django {
   width: 140px;
-  -webkit-animation-name: two_items_a;
-          animation-name: two_items_a;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
+  -webkit-animation: two_items_a 5s infinite normal;
+          animation: two_items_a 5s infinite normal;
 }
 
 .skills_container .skill_box .skill_title h3 {
@@ -132,7 +108,6 @@
   }
   50% {
     opacity: 1;
-    z-index: 0;
   }
 }
 
@@ -142,7 +117,6 @@
   }
   50% {
     opacity: 1;
-    z-index: 0;
   }
 }
 
