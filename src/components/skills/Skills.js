@@ -55,35 +55,6 @@ export const Skills = () => {
             <h3>JavaScript</h3>
           </div>
         </div>
-        <div className="skill_box mysql">
-          <div className="skill_title">
-            <div className="img">
-              <img src={mysql} className="skill_icon" alt="MySQL" />
-            </div>
-            <h3>MySQL</h3>
-          </div>
-        </div>
-        <div className="skill_box photoshop">
-          <div className="skill_title">
-            <div className="img">
-              <img src={photoshop} className="skill_icon" alt="Photoshop" />
-            </div>
-            <h3>Photoshop</h3>
-          </div>
-        </div>
-        <div className="skill_box git_box">
-          <div className="skill_title">
-            <div className="img">
-              <img src={git} className="skill_icon git" alt="Git" />
-              <img
-                src={github}
-                className="skill_icon skill_icon2 github"
-                alt="Github"
-              />
-            </div>
-            <h3>Git | Github</h3>
-          </div>
-        </div>
         <div className="skill_box react">
           <div className="skill_title">
             <div className="img">
@@ -111,6 +82,35 @@ export const Skills = () => {
               />
             </div>
             <h3>Django [Rest Framework]</h3>
+          </div>
+        </div>
+        <div className="skill_box git_box">
+          <div className="skill_title">
+            <div className="img">
+              <img src={git} className="skill_icon git" alt="Git" />
+              <img
+                src={github}
+                className="skill_icon skill_icon2 github"
+                alt="Github"
+              />
+            </div>
+            <h3>Git | Github</h3>
+          </div>
+        </div>
+        <div className="skill_box photoshop">
+          <div className="skill_title">
+            <div className="img">
+              <img src={photoshop} className="skill_icon" alt="Photoshop" />
+            </div>
+            <h3>Photoshop</h3>
+          </div>
+        </div>
+        <div className="skill_box mysql">
+          <div className="skill_title">
+            <div className="img">
+              <img src={mysql} className="skill_icon" alt="MySQL" />
+            </div>
+            <h3>MySQL</h3>
           </div>
         </div>
       </div>
