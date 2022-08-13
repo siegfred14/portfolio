@@ -41,13 +41,35 @@
       -ms-flex: 0 0 100px;
           flex: 0 0 100px;
   height: 100px;
+  position: relative;
 }
 
 .skills_container .skill_box .skill_title .img .skill_icon {
   width: 80px;
 }
 
+.skills_container .skill_box .skill_title .img .skill_icon2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.skills_container .skill_box .skill_title .img .github {
+  width: 150px;
+}
+
 .skills_container .skill_box .skill_title .img .drf {
+  top: 22%;
+  width: 80%;
+}
+
+.skills_container .skill_box .skill_title .img .bootstrap, .skills_container .skill_box .skill_title .img .sass {
+  top: 5%;
+}
+
+.skills_container .skill_box .skill_title .img .django {
   width: 140px;
 }
 
@@ -81,7 +103,7 @@
   .skills_container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    padding: 0;
+    padding: 0.4rem;
   }
   .skills_container .skill_box {
     padding: 0.2rem;

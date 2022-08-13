@@ -45,12 +45,36 @@
                 background-color: green;
                 flex: 0 0 100px;
                 height: 100px;
+                position: relative;
 
                 .skill_icon{
                     width: 80px;
                 }
 
+                .skill_icon2{
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%);
+                    // border: 2px solid black;
+                    // z-index: 2;
+                }
+
+                .github{
+                    width: 150px;
+                    // left: 50%;
+                    // transform: translate(-50%);
+                }
                 .drf{
+                    top: 22%;
+                    width: 80%;
+                }
+
+                .bootstrap, .sass{
+                    top: 5%;
+                }
+
+                .django{
                     width: 140px;
                 }
             }
@@ -111,7 +135,7 @@
 @media screen and (max-width:500px){
     .skills_container{
         grid-template-columns: repeat(2, 1fr);
-        padding: 0;
+        padding: 0.4rem;
         .skill_box{
             padding: 0.2rem;
             // .skill_title{
