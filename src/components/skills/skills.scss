@@ -63,17 +63,17 @@
                 
                 .github{
                     width: 150px;
-                    animation: two_items_a 5s infinite reverse;
+                    animation: two_items_a 5s 2s infinite reverse;
                 }
 
                 .drf{
                     top: 22%;
                     width: 80%;
-                    animation: two_items_a 5s infinite reverse;
+                    animation: two_items_a 5s 2s infinite reverse;
                 }
 
                 .bootstrap, .sass{
-                    top: 5%;
+                    top: 6%;
                 }
 
                 .django{
@@ -118,11 +118,40 @@
 @keyframes two_items_b {
     0%{
         // z-index: 0;
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 0;
+        // z-index: 0;
+    }
+    66.6%{
         opacity: 0;
     }
-    50% {
+}
+@keyframes two_items_c {
+    0%{
+        // z-index: 0;
+        opacity: 0;
+    }
+    33.3% {
         opacity: 1;
         // z-index: 0;
+    }
+    66.6%{
+        opacity: 0;
+    }
+}
+@keyframes two_items_d {
+    0%{
+        // z-index: 0;
+        opacity: 0;
+    }
+    33.3% {
+        opacity: 0;
+        // z-index: 0;
+    }
+    66.6%{
+        opacity: 1;
     }
 }
 
