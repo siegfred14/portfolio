@@ -115,12 +115,12 @@ export const Skills = () => {
         </div>
       </div>
       <div className="soft_skills container">
-        <small className="soft_skill">Team Player | </small>
+        <small className="soft_skill">Team Play | </small>
         <small className="soft_skill">Strong Communication | </small>
         <small className="soft_skill">Active Listening | </small>
         <small className="soft_skill">Leadership | </small>
         <small className="soft_skill">Public Speaking | </small>
-        <small className="soft_skill">Humorous</small>
+        <small className="soft_skill">Humor</small>
       </div>
     </section>
   );

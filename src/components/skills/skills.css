@@ -101,6 +101,19 @@
   color: green;
 }
 
+.soft_skills {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.soft_skills .soft_skill:nth-child(even) {
+  color: green;
+}
+
+.soft_skills .soft_skill:nth-child(odd) {
+  color: red;
+}
+
 @-webkit-keyframes two_items_a {
   0% {
     opacity: 1;
@@ -159,19 +172,6 @@
   90% {
     opacity: 0.7;
   }
-}
-
-.soft_skills {
-  margin-top: 3rem;
-  text-align: center;
-}
-
-.soft_skills .soft_skill:nth-child(even) {
-  color: green;
-}
-
-.soft_skills .soft_skill:nth-child(odd) {
-  color: red;
 }
 
 @media screen and (max-width: 767px) {
