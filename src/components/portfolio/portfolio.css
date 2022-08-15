@@ -8,5 +8,15 @@
 
 .portfolio_container .portfolio_item {
   background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.portfolio_container .portfolio_item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 /*# sourceMappingURL=portfolio.css.map */

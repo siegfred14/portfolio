@@ -13,10 +13,10 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>
+          <small>
             I Created A Meteorological Application, Which Fetches From API To
             Supply Real-Time Climatic Information On Global Cities.
-          </h3>
+          </small>
           <a href="https://github.com/siegfred14/meteorologyWebApp">Github</a>
           <a href="#">Live Demo</a>
         </article>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>An E-Commerce Web Application For A Trading Firm.</h3>
+          <small>An E-Commerce Web Application For A Trading Firm.</small>
           <a href="https://github.com/siegfred14/jsOnlineStore">Github</a>
           <a href="#">Live Demo</a>
         </article>
@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Simple React Calculator.</h3>
+          <small>Simple React Calculator.</small>
           <a href="https://github.com/siegfred14/react-calculator">Github</a>
           <a href="">Live Demo</a>
         </article>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Strata & Structures Company Website.</h3>
+          <small>Strata & Structures Company Website.</small>
           <a href="https://github.com/siegfred14/strata-and-structures">
             Github
           </a>
@@ -54,7 +54,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Python ATM Application</h3>
+          <small>Python ATM Application</small>
           <a href="https://github.com/siegfred14/AtmMockUpApp">Github</a>
           <a href="">Live Demo</a>
         </article>
@@ -63,10 +63,10 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>
+          <small>
             I led a team to develop this private project for a company. It is an
             API for an E-Commerce application.
-          </h3>
+          </small>
           <a href="https://github.com/siegfred14/Belleda-be-pjt-17">Github</a>
           <a href="">Live Demo</a>
         </article>
