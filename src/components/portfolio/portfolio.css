@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=portfolio.css.map */
+.portfolio_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio_container .portfolio_item {
+  background: var(--color-bg-variant);
+}
+/*# sourceMappingURL=portfolio.css.map */

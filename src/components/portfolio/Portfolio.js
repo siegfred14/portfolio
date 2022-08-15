@@ -20,8 +20,7 @@ const Portfolio = () => {
           <a href="https://github.com/siegfred14/meteorologyWebApp">Github</a>
           <a href="#">Live Demo</a>
         </article>
-      </div>
-      <div className="container portfolio_container">
+
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
@@ -30,8 +29,7 @@ const Portfolio = () => {
           <a href="https://github.com/siegfred14/jsOnlineStore">Github</a>
           <a href="#">Live Demo</a>
         </article>
-      </div>
-      <div className="container portfolio_container">
+
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
@@ -40,8 +38,7 @@ const Portfolio = () => {
           <a href="https://github.com/siegfred14/react-calculator">Github</a>
           <a href="">Live Demo</a>
         </article>
-      </div>
-      <div className="container portfolio_container">
+
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
@@ -52,8 +49,7 @@ const Portfolio = () => {
           </a>
           <a href="">Live Demo</a>
         </article>
-      </div>
-      <div className="container portfolio_container">
+
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
@@ -62,8 +58,7 @@ const Portfolio = () => {
           <a href="https://github.com/siegfred14/AtmMockUpApp">Github</a>
           <a href="">Live Demo</a>
         </article>
-      </div>
-      <div className="container portfolio_container">
+
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
