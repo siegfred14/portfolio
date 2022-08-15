@@ -14,5 +14,16 @@
             border-color: var(--color-primary-variant);
             background: transparent;
         }
+
+        .portfolio_item_image{
+            border-radius: 1.5rem;
+            overflow: hidden;
+        }
+
+        h3{
+            background-color: yellowgreen;
+            // width: 100%;
+            margin: 1.2rem 0 2rem;
+        }
     }
 }

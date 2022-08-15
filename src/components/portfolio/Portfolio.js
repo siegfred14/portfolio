@@ -13,62 +13,111 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <small>
+          <h3>
             I Created A Meteorological Application, Which Fetches From API To
             Supply Real-Time Climatic Information On Global Cities.
-          </small>
-          <a href="https://github.com/siegfred14/meteorologyWebApp">Github</a>
-          <a href="#">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
-          </div>
-          <small>An E-Commerce Web Application For A Trading Firm.</small>
-          <a href="https://github.com/siegfred14/jsOnlineStore">Github</a>
-          <a href="#">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
-          </div>
-          <small>Simple React Calculator.</small>
-          <a href="https://github.com/siegfred14/react-calculator">Github</a>
-          <a href="">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
-          </div>
-          <small>Strata & Structures Company Website.</small>
-          <a href="https://github.com/siegfred14/strata-and-structures">
+          </h3>
+          <a
+            href="https://github.com/siegfred14/meteorologyWebApp"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
-          <a href="">Live Demo</a>
+          <a href="#" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
         </article>
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <small>Python ATM Application</small>
-          <a href="https://github.com/siegfred14/AtmMockUpApp">Github</a>
-          <a href="">Live Demo</a>
+          <h3>An E-Commerce Web Application For A Trading Firm.</h3>
+          <a
+            href="https://github.com/siegfred14/jsOnlineStore"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a href="#" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
         </article>
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <small>
-            I led a team to develop this private project for a company. It is an
-            API for an E-Commerce application.
-          </small>
-          <a href="https://github.com/siegfred14/Belleda-be-pjt-17">Github</a>
-          <a href="">Live Demo</a>
+          <h3>Simple React Calculator.</h3>
+          <a
+            href="https://github.com/siegfred14/react-calculator"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a href="" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item_image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Strata & Structures Ltd Website.</h3>
+          <a
+            href="https://github.com/siegfred14/strata-and-structures"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a href="" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item_image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Python ATM Application</h3>
+          <a
+            href="https://github.com/siegfred14/AtmMockUpApp"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a href="" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item_image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Belleda Fashion App</h3>
+          {/* <div className="content">
+            <small>
+              I led a team to develop this private project for a company. It is
+              an API for an E-Commerce application.
+            </small>
+          </div> */}
+          <a
+            href="https://github.com/siegfred14/Belleda-be-pjt-17"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a href="" className="btn btn-primary" target="_blank">
+            Live Demo
+          </a>
         </article>
       </div>
     </section>

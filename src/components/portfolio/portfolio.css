@@ -19,4 +19,14 @@
   border-color: var(--color-primary-variant);
   background: transparent;
 }
+
+.portfolio_container .portfolio_item .portfolio_item_image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio_container .portfolio_item h3 {
+  background-color: yellowgreen;
+  margin: 1.2rem 0 2rem;
+}
 /*# sourceMappingURL=portfolio.css.map */
