@@ -35,3 +35,25 @@
         }
     }
 }
+
+// ============ Media Querries (Medium Devices)============ 
+@media screen and (max-width: 1024px){
+    .portfolio_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+
+        .portfolio_item{
+            h3{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// ============ Media Querries (Small Devices)============ 
+@media screen and (max-width: 600px){
+    .portfolio_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

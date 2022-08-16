@@ -40,4 +40,23 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .portfolio_container .portfolio_item h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
 /*# sourceMappingURL=portfolio.css.map */
