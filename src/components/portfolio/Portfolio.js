@@ -13,37 +13,41 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>
-            I Created A Meteorological Application, Which Fetches From API To
-            Supply Real-Time Climatic Information On Global Cities.
-          </h3>
-          <a
-            href="https://github.com/siegfred14/meteorologyWebApp"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="#" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <h3>Meteorological App</h3>
+          {/* <small>I Created A Meteorological Application, Which Fetches From API To
+            Supply Real-Time Climatic Information On Global Cities.</small> */}
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/meteorologyWebApp"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a href="#" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>An E-Commerce Web Application For A Trading Firm.</h3>
-          <a
-            href="https://github.com/siegfred14/jsOnlineStore"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="#" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <h3>Inikpi Furnitures Ltd Website</h3>
+          {/* <small>An E-Commerce Web Application For A Trading Firm</small> */}
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/jsOnlineStore"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a href="#" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -51,16 +55,18 @@ const Portfolio = () => {
             <img src={IMG6} alt="" />
           </div>
           <h3>Simple React Calculator.</h3>
-          <a
-            href="https://github.com/siegfred14/react-calculator"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/react-calculator"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -68,16 +74,18 @@ const Portfolio = () => {
             <img src={IMG6} alt="" />
           </div>
           <h3>Strata & Structures Ltd Website.</h3>
-          <a
-            href="https://github.com/siegfred14/strata-and-structures"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/strata-and-structures"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -85,16 +93,18 @@ const Portfolio = () => {
             <img src={IMG6} alt="" />
           </div>
           <h3>Python ATM Application</h3>
-          <a
-            href="https://github.com/siegfred14/AtmMockUpApp"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/AtmMockUpApp"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -108,16 +118,22 @@ const Portfolio = () => {
               an API for an E-Commerce application.
             </small>
           </div> */}
-          <a
-            href="https://github.com/siegfred14/Belleda-be-pjt-17"
-            className="btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item_cta">
+            <a
+              href="https://github.com/siegfred14/Belleda-be-pjt-17"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://belleda-back.herokuapp.com/?format=openapi"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>

@@ -21,9 +21,17 @@
         }
 
         h3{
-            background-color: yellowgreen;
+            // background-color: yellowgreen;
             // width: 100%;
             margin: 1.2rem 0 2rem;
+            text-align: center;
+        }
+
+        .portfolio_item_cta{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            justify-content: center;
         }
     }
 }
