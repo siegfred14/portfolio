@@ -52,6 +52,12 @@ let portfolioData = [
   },
 ];
 
+// let extraData = {
+//   data1: "I Created A Meteorological Application, Which Fetches From API To Supply Real-Time Climatic Information On Global Cities",
+//   data2: "An E-Commerce Web Application For A Trading Firm",
+//   data6: "I led a team to develop this private project for a company. It is an API for an E-Commerce application."
+// }
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -77,133 +83,6 @@ const Portfolio = () => {
             </article>
           );
         })}
-
-        {/* <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>Meteorological App</h3> */}
-        {/* <small>I Created A Meteorological Application, Which Fetches From API To
-            Supply Real-Time Climatic Information On Global Cities.</small> */}
-        {/* <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/meteorologyWebApp"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a href="#" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article> */}
-
-        {/* <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Inikpi Furnitures Ltd Website</h3> */}
-        {/* <small>An E-Commerce Web Application For A Trading Firm</small> */}
-        {/* <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/jsOnlineStore"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a href="#" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article> */}
-
-        {/* <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Simple React Calculator.</h3>
-          <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/react-calculator"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Strata & Structures Ltd Website.</h3>
-          <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/strata-and-structures"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Python ATM Application</h3>
-          <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/AtmMockUpApp"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>Belleda Fashion App</h3> */}
-        {/* <div className="content">
-            <small>
-              I led a team to develop this private project for a company. It is
-              an API for an E-Commerce application.
-            </small>
-          </div> */}
-        {/* <div className="portfolio_item_cta">
-            <a
-              href="https://github.com/siegfred14/Belleda-be-pjt-17"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="http://belleda-back.herokuapp.com/?format=openapi"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article> */}
       </div>
     </section>
   );
