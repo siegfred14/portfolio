@@ -1,5 +1,10 @@
 import React from "react";
 import "./portfolio.css";
+import IMG1 from "../../img/portfolio/meteorology.png";
+import IMG2 from "../../img/portfolio/inikpiFurnitures.png";
+import IMG3 from "../../img/portfolio/calulator.png";
+import IMG4 from "../../img/portfolio/strata&structures.png";
+import IMG5 from "../../img/portfolio/pythonAtmApp.jpg";
 import IMG6 from "../../img/portfolio/belleda.png";
 
 const Portfolio = () => {
@@ -11,7 +16,7 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
+            <img src={IMG1} alt="" />
           </div>
           <h3>Meteorological App</h3>
           {/* <small>I Created A Meteorological Application, Which Fetches From API To
@@ -32,7 +37,7 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
+            <img src={IMG2} alt="" />
           </div>
           <h3>Inikpi Furnitures Ltd Website</h3>
           {/* <small>An E-Commerce Web Application For A Trading Firm</small> */}
@@ -52,7 +57,7 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
+            <img src={IMG3} alt="" />
           </div>
           <h3>Simple React Calculator.</h3>
           <div className="portfolio_item_cta">
@@ -71,7 +76,7 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
+            <img src={IMG4} alt="" />
           </div>
           <h3>Strata & Structures Ltd Website.</h3>
           <div className="portfolio_item_cta">
@@ -90,7 +95,7 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item_image">
-            <img src={IMG6} alt="" />
+            <img src={IMG5} alt="" />
           </div>
           <h3>Python ATM Application</h3>
           <div className="portfolio_item_cta">
