@@ -2,7 +2,7 @@ import IMG1 from "../../img/testimonial/abraham.png";
 import IMG2 from "../../img/testimonial/chioma.png";
 import IMG3 from "../../img/testimonial/amen.png";
 
-export const data = [
+export const Data = [
   {
     id: 1,
     title: "Yunana Abraham",
