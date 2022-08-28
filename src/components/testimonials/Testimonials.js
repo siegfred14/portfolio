@@ -4,6 +4,16 @@ import IMG1 from "../../img/testimonial/abraham.png";
 import IMG2 from "../../img/testimonial/chioma.png";
 import IMG3 from "../../img/testimonial/amen.png";
 
+let data = [
+  {
+    id: 1,
+    name: "Yunana Abraham",
+    image: IMG1,
+    comment:
+      "The website you built for us has increased our online presence and hence ameliorated our ease of business. Strangers are now more comfortable to engage in first time deals ",
+  },
+];
+
 const Testimonials = () => {
   return (
     <section id="testimonials">
