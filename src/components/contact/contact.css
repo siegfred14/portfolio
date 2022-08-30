@@ -1,2 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
+.contact_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (max-content)[2];
+      grid-template-columns: repeat(2, -webkit-max-content);
+      grid-template-columns: repeat(2, max-content);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 6rem;
+          column-gap: 6rem;
+  padding-bottom: 3rem;
+}
+
+.contact_container .contact_info {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 1rem;
+  -ms-grid-columns: 300px;
+      grid-template-columns: 300px;
+}
 /*# sourceMappingURL=contact.css.map */

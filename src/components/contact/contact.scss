@@ -1,1 +1,15 @@
 @import url('https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css');
+
+.contact_container{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+
+    .contact_info{
+        display: grid;
+        row-gap: 1rem;
+        grid-template-columns: 300px;
+    }
+}
