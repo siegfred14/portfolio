@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=testimonials.css.map */
+.testimonial_card .client_avatar {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  border: 2px solid peru;
+  z-index: 7;
+}
+
+.testimonial_card .client_avatar img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=testimonials.css.map */

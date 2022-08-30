@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AACI,iBADa,CACb,cAAc,CAAA;EACV,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,CAAC;CAMb;;AAZL,AAOQ,iBAPS,CACb,cAAc,CAMV,GAAG,CAAA;EACC,aAAa,EAAE,GAAG;CAGrB",
     "sources": [
         "testimonials.scss"
     ],

@@ -1,0 +1,14 @@
+.testimonial_card{
+    .client_avatar{
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        border: 2px solid peru;
+        z-index: 7;        
+        img{
+            border-radius: 50%;
+            // object-fit: cover;
+
+        }
+    }
+}

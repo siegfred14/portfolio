@@ -1,4 +1,5 @@
 import React from "react";
+import "./testimonials.css";
 import { Data } from "./Data";
 
 // Import Swiper React components
