@@ -25,3 +25,5 @@
 ### Modern and responsive designs with CSS3 like (pseudo elements, )
 
 ### The component css files are built on sass
+
+### card slider was also employed to display different cards using the Swiper tool.
