@@ -1,14 +1,26 @@
 .testimonial_card{
+    border: 2px solid peru;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
     .client_avatar{
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        height: 30%;
         border-radius: 50%;
         border: 2px solid peru;
         z-index: 7;        
         img{
             border-radius: 50%;
             // object-fit: cover;
-
         }
+    }
+    .client_name{
+        padding: 0.5rem;
+    }
+
+    .client_review{
+        width: 70%;
+        text-align: center;
     }
 }

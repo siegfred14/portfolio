@@ -1,6 +1,20 @@
+.testimonial_card {
+  border: 2px solid peru;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .testimonial_card .client_avatar {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   border: 2px solid peru;
   z-index: 7;
@@ -8,5 +22,14 @@
 
 .testimonial_card .client_avatar img {
   border-radius: 50%;
+}
+
+.testimonial_card .client_name {
+  padding: 0.5rem;
+}
+
+.testimonial_card .client_review {
+  width: 70%;
+  text-align: center;
 }
 /*# sourceMappingURL=testimonials.css.map */
