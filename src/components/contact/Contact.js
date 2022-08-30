@@ -27,7 +27,7 @@ const Contact = () => {
                 target="_blank"
               >
                 Write Me{" "}
-                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right-hover contact_button_icon"></i>
+                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right contact_button_icon"></i>
               </a>
             </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                 target="_blank"
               >
                 Write Me{" "}
-                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right-hover contact_button_icon"></i>
+                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right contact_button_icon"></i>
               </a>
             </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 target="_blank"
               >
                 Write Me{" "}
-                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right-hover contact_button_icon"></i>
+                <i className="bx bxs-right-arrow-alt bx-sm bx-fade-right contact_button_icon"></i>
               </a>
             </div>
           </div>

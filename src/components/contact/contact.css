@@ -23,8 +23,6 @@
   display: -ms-grid;
   display: grid;
   row-gap: 1rem;
-  -ms-grid-columns: 300px;
-      grid-template-columns: 300px;
 }
 
 .contact_container .contact_content .contact_info .contact_card {
@@ -33,5 +31,25 @@
   padding: 1rem;
   border-radius: 0.75rem;
   text-align: center;
+}
+
+.contact_container .contact_content .contact_info .contact_card .contact_card_icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact_container .contact_content .contact_info .contact_card .bxs-right-arrow-alt {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.contact_container .contact_content .contact_info .contact_card:nth-child(2) .bxs-right-arrow-alt {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.contact_container .contact_content .contact_info .contact_card:last-child .bxs-right-arrow-alt {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 /*# sourceMappingURL=contact.css.map */
