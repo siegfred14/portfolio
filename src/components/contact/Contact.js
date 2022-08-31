@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_oxj81np",
+        "template_djs37jg",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "JHACbkxHJ1rQKO4Yz"
       )
       .then(
         (result) => {
@@ -94,7 +94,7 @@ const Contact = () => {
         <div className="contact_content">
           <h3 className="contact_title contact_title_two">Your project</h3>
 
-          <form action="" className="contact_form">
+          <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form_div">
               <label htmlFor="name" className="contact_form_tag">
                 Name
