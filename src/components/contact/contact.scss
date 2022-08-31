@@ -21,6 +21,7 @@
 
             .contact_card{
                 background-color: var(--color-bg-variant);
+                // background-color: rgb(255, 255, 255);
                 border: 1px solid rgba(0,0,0,0.1);
                 padding: 1rem;
                 border-radius: 0.75rem;
@@ -55,6 +56,13 @@
                     .contact_card_icon{
                         color: #1b74e4;
                     }
+                }
+
+                .contact_button{
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    column-gap: 0.25rem;
                 }
             }
         }

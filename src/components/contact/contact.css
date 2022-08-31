@@ -61,4 +61,18 @@
 .contact_container .contact_content .contact_info .contact_card:last-child .contact_card_icon {
   color: #1b74e4;
 }
+
+.contact_container .contact_content .contact_info .contact_card .contact_button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 0.25rem;
+          column-gap: 0.25rem;
+}
 /*# sourceMappingURL=contact.css.map */
