@@ -26,9 +26,14 @@
                 border-radius: 0.75rem;
                 text-align: center;
 
+                // .contact_card_title, .contact_card_data{
+                //     color: rgb(219, 40, 40);
+                // }
+
                 .contact_card_icon{
                     font-size: 2rem;
                     margin-bottom: 1rem;
+                    color: rgb(255, 72, 0);
                 }
 
                 .bxs-right-arrow-alt{
@@ -39,10 +44,16 @@
                     .bxs-right-arrow-alt{
                         animation-delay: 0.2s;
                     }
+                    .contact_card_icon{
+                        color: green;
+                    }
                 }
                 &:last-child{
                     .bxs-right-arrow-alt{
                         animation-delay: 0.4s;
+                    }
+                    .contact_card_icon{
+                        color: #1b74e4;
                     }
                 }
             }

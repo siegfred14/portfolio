@@ -36,6 +36,7 @@
 .contact_container .contact_content .contact_info .contact_card .contact_card_icon {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #ff4800;
 }
 
 .contact_container .contact_content .contact_info .contact_card .bxs-right-arrow-alt {
@@ -48,8 +49,16 @@
           animation-delay: 0.2s;
 }
 
+.contact_container .contact_content .contact_info .contact_card:nth-child(2) .contact_card_icon {
+  color: green;
+}
+
 .contact_container .contact_content .contact_info .contact_card:last-child .bxs-right-arrow-alt {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+}
+
+.contact_container .contact_content .contact_info .contact_card:last-child .contact_card_icon {
+  color: #1b74e4;
 }
 /*# sourceMappingURL=contact.css.map */
