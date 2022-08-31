@@ -7,8 +7,8 @@ import { SiMessenger } from "react-icons/si";
 const Contact = () => {
   return (
     <section id="contact">
-      <h5>Reach out today, make a</h5>
-      <h2>contact</h2>
+      <h5>Reach out today</h5>
+      <h2>Contact Me</h2>
 
       <div className="contact_container container">
         <div className="contact_content">
@@ -97,21 +97,19 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact_form_div">
+            <div className="contact_form_div contact_form_area">
               <label htmlFor="project" className="contact_form_tag">
                 Project
               </label>
               <textarea
                 name="project"
-                // cols="30"
-                rows="7"
+                cols="30"
+                rows="10"
                 type="text"
                 className="contact_form_input"
                 placeholder="Describe your project"
                 required
-              >
-                Write your project
-              </textarea>
+              />
             </div>
 
             <button type="submit" className="btn btn-primary">

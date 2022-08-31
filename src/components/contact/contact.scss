@@ -20,9 +20,9 @@
             grid-template-columns: 300px;
 
             .contact_card{
-                background-color: var(--color-bg-variant);
-                // background-color: rgb(255, 255, 255);
-                border: 1px solid rgba(0,0,0,0.1);
+                // background-color: var(--color-bg-variant);
+                background-color: rgba(0,0,0,0.1);
+                border: 1px solid rgba(0,0,0,0.2);
                 padding: 1rem;
                 border-radius: 0.75rem;
                 text-align: center;
@@ -71,8 +71,18 @@
             width: 360px;
             .contact_form_div{
                 position: relative;
-                margin-bottom: 0.5rem ;
+                margin-bottom: 2rem ;
                 height: 4rem;
+
+                .contact_form_tag{
+                    position: absolute;
+                    top: -0.75rem;
+                    left: 1.25rem;
+                    font-size: smaller;
+                    padding: 0.2rem;
+                    background-color: var(--color-bg);
+                    z-index: 10;
+                }
 
                 .contact_form_input{
                     position: absolute;
@@ -86,6 +96,14 @@
                     border-radius: 0.75rem;
                     padding: 1.5rem;
                     z-index: 1;
+                }
+
+            }
+            .contact_form_area{
+                height: 12rem;
+
+                .contact_form_input{
+                    resize: none;
                 }
             }
         }
