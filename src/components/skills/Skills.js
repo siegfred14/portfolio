@@ -18,7 +18,7 @@ export const Skills = () => {
   return (
     <section id="skills">
       <h5>What I Offer</h5>
-      <h2>My Services</h2>
+      <h2>My Skills</h2>
 
       <div className="container skills_container">
         <div className="skill_box html5">
