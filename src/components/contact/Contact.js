@@ -107,7 +107,7 @@ const Contact = () => {
                 rows="7"
                 type="text"
                 className="contact_form_input"
-                placeholder="Enter your name"
+                placeholder="Describe your project"
                 required
               >
                 Write your project
