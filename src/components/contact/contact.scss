@@ -54,7 +54,7 @@
                         animation-delay: 0.4s;
                     }
                     .contact_card_icon{
-                        color: #1b74e4;
+                        color: #1b74e4;                        
                     }
                 }
 
@@ -110,4 +110,76 @@
 
     }
 
+}
+
+//large devices
+@media screen and (max-width: 992px) {
+    .contact_container{
+        column-gap: 3rem;
+    }
+}
+
+// Medium devices
+@media screen and (max-width: 768px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+
+        .contact_content{
+            .contact_info{
+                justify-content: center;
+            }
+            .contact_form{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact_info{
+        grid-template-columns: 1fr;
+    }
+    .contact_form{
+        width: 100%;
+    }
+}
+
+// Smallest devices
+@media screen and (max-width: 300px) {
+    .contact_container{
+        column-gap: 0.5rem;
+        padding-bottom: 0.01rem;
+        .contact_info{
+            width: 270px;
+            place-items: center;
+            
+            .contact_card{
+                width: 70%;
+            }
+        }
+
+        .contact_title{
+            margin-bottom: 0.2rem;
+        }
+
+        .contact_title_two{
+            display: none;
+        }
+        .contact_form{
+            display: none;
+            // border: 2px solid blue;                
+            // padding: 0;
+            // margin: 0;
+            // // place-items: center;
+            // display: grid;
+            // grid-template-columns: 1fr;
+            // place-items: center;
+            // width: auto;
+            // .contact_form_div{
+            //     border: 2px solid green;                
+            //     width: 250px;
+            // }
+        }
+    }
 }

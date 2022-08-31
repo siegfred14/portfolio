@@ -119,4 +119,61 @@
 .contact_container .contact_content .contact_form .contact_form_area .contact_form_input {
   resize: none;
 }
+
+@media screen and (max-width: 992px) {
+  .contact_container {
+    -webkit-column-gap: 3rem;
+            column-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+  .contact_container .contact_content .contact_info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact_container .contact_content .contact_form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact_info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contact_container {
+    -webkit-column-gap: 0.5rem;
+            column-gap: 0.5rem;
+    padding-bottom: 0.01rem;
+  }
+  .contact_container .contact_info {
+    width: 270px;
+    place-items: center;
+  }
+  .contact_container .contact_info .contact_card {
+    width: 70%;
+  }
+  .contact_container .contact_title {
+    margin-bottom: 0.2rem;
+  }
+  .contact_container .contact_title_two {
+    display: none;
+  }
+  .contact_container .contact_form {
+    display: none;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

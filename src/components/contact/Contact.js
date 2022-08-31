@@ -68,7 +68,7 @@ const Contact = () => {
         </div>
 
         <div className="contact_content">
-          <h3 className="contact_title">Your project</h3>
+          <h3 className="contact_title contact_title_two">Your project</h3>
 
           <form action="" className="contact_form">
             <div className="contact_form_div">
