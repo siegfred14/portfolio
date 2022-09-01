@@ -41,11 +41,21 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.facebook.com/siegfreds">{BsFacebook}</a>
-        <a href="https://www.instagram.com/siegfreds"></a>
-        <a href="https://twitter.com/siegfred_1"></a>
-        <a href="https://www.linkedin.com/siegfred"></a>
-        <a href="https://github.com/siegfred14"></a>
+        <a href="https://www.facebook.com/siegfreds">
+          <BsFacebook />
+        </a>
+        <a href="https://www.instagram.com/siegfreds">
+          <RiInstagramFill />
+        </a>
+        <a href="https://twitter.com/siegfred_1">
+          <SiTwitter />
+        </a>
+        <a href="https://www.linkedin.com/siegfred">
+          <BsLinkedin />
+        </a>
+        <a href="https://github.com/siegfred14">
+          <BsGithub />
+        </a>
       </div>
 
       <div>
