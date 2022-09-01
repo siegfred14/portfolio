@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { SiMessenger } from "react-icons/si";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [status, setStatus] = useState(undefined);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -22,9 +22,12 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setStatus({ type: "success" });
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
+          setStatus({ type: "error", error });
         }
       );
   };
@@ -135,6 +138,13 @@ const Contact = () => {
                 required
               />
             </div>
+
+            {status?.type === "success" && (
+              <p className="status_msg msg1">"Message Sent!"</p>
+            )}
+            {status?.type === "error" && (
+              <p className="status_msg msg2">"Message Not Sent Try Again!"</p>
+            )}
 
             <button type="submit" className="btn btn-primary">
               Send message
