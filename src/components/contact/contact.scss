@@ -112,6 +112,19 @@
 
 }
 
+@keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+// MEDIA QUERRIES
 //large devices
 @media screen and (max-width: 992px) {
     .contact_container{
@@ -157,10 +170,6 @@
             .contact_card{
                 width: 70%;
             }
-        }
-
-        .contact_title{
-            margin-bottom: 0.2rem;
         }
 
         .contact_title_two{

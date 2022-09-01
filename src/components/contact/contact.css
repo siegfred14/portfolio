@@ -120,6 +120,30 @@
   resize: none;
 }
 
+@-webkit-keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .contact_container {
     -webkit-column-gap: 3rem;
@@ -165,9 +189,6 @@
   }
   .contact_container .contact_info .contact_card {
     width: 70%;
-  }
-  .contact_container .contact_title {
-    margin-bottom: 0.2rem;
   }
   .contact_container .contact_title_two {
     display: none;
