@@ -58,14 +58,11 @@ const Footer = () => {
         </a>
       </div>
 
-      <div>
-        <p>
+      <div className="footer_copyright">
+        <small>
           Designed and Developed by <b>SIEGFREDSDOM</b>
-        </p>
-        <p>
-          Copyright&copy;
-          {new Date().getFullYear()}| All Rights Reserved
-        </p>
+        </small>
+        <small>&copy; {new Date().getFullYear()}| All Rights Reserved</small>
       </div>
     </footer>
   );
