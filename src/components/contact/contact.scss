@@ -117,11 +117,12 @@
                 border-radius: 1rem;
                 position: absolute;
                 left: 50%;
-                bottom: 50%;
+                bottom: 20%;
                 transform: translate(-50%);
                 text-align: center;
                 
                 animation: FadeAnimation 4s ease-in .1s forwards;
+                z-index: 4;
             }
         }
 

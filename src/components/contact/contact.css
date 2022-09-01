@@ -131,12 +131,13 @@
   border-radius: 1rem;
   position: absolute;
   left: 50%;
-  bottom: 50%;
+  bottom: 20%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   text-align: center;
   -webkit-animation: FadeAnimation 4s ease-in .1s forwards;
           animation: FadeAnimation 4s ease-in .1s forwards;
+  z-index: 4;
 }
 
 @-webkit-keyframes FadeAnimation {
