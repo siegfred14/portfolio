@@ -69,6 +69,8 @@
 
         .contact_form{
             width: 360px;
+            position: relative;
+            // border: 2px solid red;
             .contact_form_div{
                 position: relative;
                 margin-bottom: 2rem ;
@@ -106,6 +108,21 @@
                     resize: none;
                 }
             }
+
+            .status_msg{
+                background: linear-gradient(90deg, rgba(#f7d797, 0.5), rgba(0, 0, 0, 0.2) );
+                // color: var(--color-bg-variant);
+                padding: 1.5rem 2.5rem;
+                width: fit-content;
+                border-radius: 1rem;
+                position: absolute;
+                left: 50%;
+                bottom: 50%;
+                transform: translate(-50%);
+                text-align: center;
+                
+                animation: FadeAnimation 4s ease-in .1s forwards;
+            }
         }
 
     }
@@ -114,13 +131,15 @@
 
 @keyframes FadeAnimation {
     0% {
-      opacity: 1;
-      visibility: visible;
+    //   opacity: 1;
+    //   visibility: visible;
+    z-index: 10;
     }
     100% {
-      opacity: 0;
-      visibility: hidden;
-      display: none;
+    //   opacity: 0;
+    //   visibility: hidden;
+    //   display: none;
+    z-index: -1;
     }
   }
 

@@ -80,6 +80,7 @@
 
 .contact_container .contact_content .contact_form {
   width: 360px;
+  position: relative;
 }
 
 .contact_container .contact_content .contact_form .contact_form_div {
@@ -120,27 +121,39 @@
   resize: none;
 }
 
+.contact_container .contact_content .contact_form .status_msg {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(247, 215, 151, 0.5)), to(rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(90deg, rgba(247, 215, 151, 0.5), rgba(0, 0, 0, 0.2));
+  padding: 1.5rem 2.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  text-align: center;
+  -webkit-animation: FadeAnimation 4s ease-in .1s forwards;
+          animation: FadeAnimation 4s ease-in .1s forwards;
+}
+
 @-webkit-keyframes FadeAnimation {
   0% {
-    opacity: 1;
-    visibility: visible;
+    z-index: 10;
   }
   100% {
-    opacity: 0;
-    visibility: hidden;
-    display: none;
+    z-index: -1;
   }
 }
 
 @keyframes FadeAnimation {
   0% {
-    opacity: 1;
-    visibility: visible;
+    z-index: 10;
   }
   100% {
-    opacity: 0;
-    visibility: hidden;
-    display: none;
+    z-index: -1;
   }
 }
 
