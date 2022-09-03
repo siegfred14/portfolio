@@ -62,7 +62,7 @@ const Footer = () => {
         <small>
           Designed and Developed by <b>SIEGFREDSDOM</b>
         </small>
-        <small>&copy; {new Date().getFullYear()}| All Rights Reserved</small>
+        <small> &copy;{new Date().getFullYear()} | All Rights Reserved</small>
       </div>
     </footer>
   );

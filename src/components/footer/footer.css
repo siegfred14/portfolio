@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+.footer-area {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+  bottom: 10px;
+  padding: 3rem 0;
+}
+
+.footer-area .footer_copyright {
+  padding: 25px 0;
+}
+
+.footer-area .footer_copyright small {
+  padding: 0;
+  margin: 0;
+  color: crimson;
+}
+/*# sourceMappingURL=footer.css.map */
