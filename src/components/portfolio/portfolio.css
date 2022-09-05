@@ -7,7 +7,7 @@
 }
 
 .portfolio_container .portfolio_item {
-  background: var(--color-bg-variant);
+  background: linear-gradient(45deg, #f7d797, rgba(0, 0, 0, 0.3));
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
