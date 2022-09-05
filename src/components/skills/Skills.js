@@ -24,15 +24,19 @@ export const Skills = () => {
         <div className="skill_box html5">
           <div className="skill_title">
             <div className="img">
-              <img src={html5} className="skill_icon" alt="HTML5" />
+              <img src={html5} className="skill_icon html" alt="HTML5" />
+              <img
+                src={css3}
+                className="skill_icon skill_icon2 css3"
+                alt="CSS3"
+              />
             </div>
-            <h3>HTML5</h3>
+            <h3>HTML5 | CSS3</h3>
           </div>
         </div>
         <div className="skill_box css_box">
           <div className="skill_title">
             <div className="img">
-              <img src={css3} className="skill_icon css3" alt="CSS3" />
               <img
                 src={bootstrap}
                 className="skill_icon skill_icon2 bootstrap"
@@ -44,7 +48,7 @@ export const Skills = () => {
                 alt="sass"
               />
             </div>
-            <h3>CSS3 | Sass</h3>
+            <h3>Bootstrap | Sass</h3>
           </div>
         </div>
         <div className="skill_box JS">

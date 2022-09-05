@@ -35,18 +35,19 @@
                     transform: translate(-50%);
                 }
                 
-                .bootstrap, .sass{
-                    top: 6%;
+                .html{
+                    animation: two_items_a 5s infinite normal;
+                }
+                .css3{
+                    animation: two_items_a 5s 2s infinite reverse;                    
                 }
 
-                .css3{
-                    animation: two_items_b 4s infinite normal;
+                .bootstrap{
+                    animation: two_items_a 5s infinite normal;
                 }
                 .sass{
-                    animation: two_items_b 4s 4s infinite normal;
-                }
-                .bootstrap{
-                    animation: two_items_b 4s 7s infinite normal;
+                    top: 6%;
+                    animation: two_items_a 5s 2s infinite reverse;
                 }
 
                 .django{

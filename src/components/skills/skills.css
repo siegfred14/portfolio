@@ -56,23 +56,23 @@
           transform: translate(-50%);
 }
 
-.skills_container .skill_box .skill_title .img .bootstrap, .skills_container .skill_box .skill_title .img .sass {
-  top: 6%;
+.skills_container .skill_box .skill_title .img .html {
+  -webkit-animation: two_items_a 5s infinite normal;
+          animation: two_items_a 5s infinite normal;
 }
 
 .skills_container .skill_box .skill_title .img .css3 {
-  -webkit-animation: two_items_b 4s infinite normal;
-          animation: two_items_b 4s infinite normal;
-}
-
-.skills_container .skill_box .skill_title .img .sass {
-  -webkit-animation: two_items_b 4s 4s infinite normal;
-          animation: two_items_b 4s 4s infinite normal;
+  animation: two_items_a 5s 2s infinite reverse;
 }
 
 .skills_container .skill_box .skill_title .img .bootstrap {
-  -webkit-animation: two_items_b 4s 7s infinite normal;
-          animation: two_items_b 4s 7s infinite normal;
+  -webkit-animation: two_items_a 5s infinite normal;
+          animation: two_items_a 5s infinite normal;
+}
+
+.skills_container .skill_box .skill_title .img .sass {
+  top: 6%;
+  animation: two_items_a 5s 2s infinite reverse;
 }
 
 .skills_container .skill_box .skill_title .img .django {
