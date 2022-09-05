@@ -29,17 +29,24 @@
         justify-content: center;
         gap: 1rem;
         margin: 0 auto 3rem;
-        li{
-            a{
-                padding: 0.8rem;
-                border-radius: 0.7rem;
-                display: flex;
-                border: 1px solid transparent;
+    }
 
-                &:hover{
-                    background: transparent;
-                    color: var(--color-bg);
-                }
+    .footer_socials{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-bottom: 4rem;
+
+        a{
+            margin: 0.8rem;
+            display: flex;
+            font-size: 1.5rem;
+
+            &:first-child{
+                color: #0674e7;
+            }
+            &:nth-child(2){
+                color:#f6073a;
             }
         }
     }

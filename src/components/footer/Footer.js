@@ -42,19 +42,19 @@ const Footer = () => {
 
       <div className="footer_socials">
         <a href="https://www.facebook.com/siegfreds">
-          <BsFacebook />
+          <BsFacebook className="footer_socials_item" />
         </a>
         <a href="https://www.instagram.com/siegfreds">
-          <RiInstagramFill />
+          <RiInstagramFill className="footer_socials_item" />
         </a>
         <a href="https://twitter.com/siegfred_1">
-          <SiTwitter />
+          <SiTwitter className="footer_socials_item" />
         </a>
         <a href="https://www.linkedin.com/siegfred">
-          <BsLinkedin />
+          <BsLinkedin className="footer_socials_item" />
         </a>
         <a href="https://github.com/siegfred14">
-          <BsGithub />
+          <BsGithub className="footer_socials_item" />
         </a>
       </div>
 
