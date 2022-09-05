@@ -41,28 +41,28 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.facebook.com/siegfreds">
+        <a href="https://www.facebook.com/siegfreds" target="_blank">
           <BsFacebook className="footer_socials_item" />
         </a>
-        <a href="https://www.instagram.com/siegfreds">
+        <a href="https://www.instagram.com/siegfreds" target="_blank">
           <RiInstagramFill className="footer_socials_item" />
         </a>
-        <a href="https://twitter.com/siegfred_1">
+        <a href="https://twitter.com/siegfred_1" target="_blank">
           <SiTwitter className="footer_socials_item" />
         </a>
-        <a href="https://www.linkedin.com/siegfred">
+        <a href="https://www.linkedin.com/siegfred" target="_blank">
           <BsLinkedin className="footer_socials_item" />
         </a>
-        <a href="https://github.com/siegfred14">
+        <a href="https://github.com/siegfred14" target="_blank">
           <BsGithub className="footer_socials_item" />
         </a>
       </div>
 
       <div className="footer_copyright">
         <small>
-          Designed and Developed by <b>SIEGFREDSDOM</b>
+          <span className="copy">&copy;</span> <b>SIEGFREDSDOM</b>{" "}
+          {new Date().getFullYear()} | All Rights Reserved
         </small>
-        <small> &copy;{new Date().getFullYear()} | All Rights Reserved</small>
       </div>
     </footer>
   );

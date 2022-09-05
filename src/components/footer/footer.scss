@@ -4,9 +4,11 @@
     width: 100%;
     bottom: 10px;
     padding: 3rem 0;
+    background: linear-gradient(90deg, rgba(#f7d797, 0.2), rgba(0,0,0,0.2));
+    border-top: 1px solid #f7d797;
     // margin-bottom: 0;
     // text-shadow: 0 0 10px black;
-
+    
     .logo{
         font-size: 2rem;
         font-weight: 500;
@@ -14,15 +16,7 @@
         display: inline-block;
     }
     
-    .footer_copyright{
-        padding: 25px 0;
-        small{
-            padding: 0;
-            margin: 0;
-            color: crimson;
-        }
-    }
-
+    
     .section_links{
         display: flex;
         flex-wrap: wrap;
@@ -35,13 +29,13 @@
         display: flex;
         justify-content: center;
         gap: 0.3rem;
-        margin-bottom: 4rem;
-
+        margin-bottom: 2rem;
+        
         a{
             margin: 0.8rem;
             display: flex;
             font-size: 1.5rem;
-
+            
             &:hover{
                 transform: scale(1.3);
             }
@@ -61,6 +55,16 @@
             }
             &:last-child{
                 color: #1a1d21;
+            }
+        }
+    }
+
+    .footer_copyright{
+        padding: 25px 0;
+        margin-bottom: 3rem;
+        small{
+            .copy{
+                font-size: 0.8rem;
             }
         }
     }

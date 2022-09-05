@@ -4,6 +4,9 @@
   width: 100%;
   bottom: 10px;
   padding: 3rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(247, 215, 151, 0.2)), to(rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(90deg, rgba(247, 215, 151, 0.2), rgba(0, 0, 0, 0.2));
+  border-top: 1px solid #f7d797;
 }
 
 .footer-area .logo {
@@ -11,16 +14,6 @@
   font-weight: 500;
   margin-bottom: 1rem;
   display: inline-block;
-}
-
-.footer-area .footer_copyright {
-  padding: 25px 0;
-}
-
-.footer-area .footer_copyright small {
-  padding: 0;
-  margin: 0;
-  color: crimson;
 }
 
 .footer-area .section_links {
@@ -44,7 +37,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 0.3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .footer-area .footer_socials a {
@@ -78,5 +71,14 @@
 
 .footer-area .footer_socials a:last-child {
   color: #1a1d21;
+}
+
+.footer-area .footer_copyright {
+  padding: 25px 0;
+  margin-bottom: 3rem;
+}
+
+.footer-area .footer_copyright small .copy {
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=footer.css.map */
