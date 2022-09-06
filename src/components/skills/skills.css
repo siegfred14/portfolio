@@ -16,7 +16,7 @@
 }
 
 .skills_container .skill_box {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .skills_container .skill_box .skill_title {
@@ -66,6 +66,7 @@
 }
 
 .skills_container .skill_box .skill_title .img .bootstrap {
+  top: 6%;
   -webkit-animation: two_items_a 5s infinite normal;
           animation: two_items_a 5s infinite normal;
 }

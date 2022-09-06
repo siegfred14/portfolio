@@ -9,7 +9,7 @@
     font-size: 1.2rem;
 
     .skill_box{
-        padding: 1rem;
+        padding: 0.5rem;
 
         .skill_title{
             display: flex;
@@ -43,6 +43,7 @@
                 }
 
                 .bootstrap{
+                    top: 6%;
                     animation: two_items_a 5s infinite normal;
                 }
                 .sass{
