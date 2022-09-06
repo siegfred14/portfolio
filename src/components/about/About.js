@@ -50,29 +50,23 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>Above 3 years</small>
+              <small>3 years excess</small>
             </article>
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200 +</small>
+              <h5>Support</h5>
+              <small>Online 24/7</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+</small>
+              <small>30+</small>
             </article>
           </div>
-          {/* <a href="#contact"className="btn btn-primary">Contact Me</a> */}
         </div>
 
-        {/* <div className="about_me">
-          <figure className="about_me_image">
-            <img src={img} alt="" />
-          </figure>
-        </div> */}
         <div class="image-collage">
           <div class="image-collection">
             <img src={img} alt="image loading..." class="collage-img" />
