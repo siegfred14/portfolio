@@ -54,7 +54,7 @@
     z-index: 2;
     transform: rotateY(0deg);
     background: no-repeat;
-    background-image: linear-gradient(var(--color-bg-variant), rgb(92, 226, 250));
+    background-image: linear-gradient(var(--color-bg-variant), rgba(92, 226, 250, 0.7), var(--color-bg-variant));
     
     h3{
         padding-top: 1rem;
@@ -85,7 +85,7 @@
 .back {
     z-index: 1; /* back side, placed above front */
     transform: rotateY(180deg);
-    background: rgb(197, 242, 250) url(../../img/Nova_Scotia.webp) no-repeat fixed center;
+    background: rgb(197, 242, 250) url(../../img/experience/Nova_Scotia.webp) no-repeat fixed center;
     background-size: cover;
     color: white;
     h3{
@@ -126,20 +126,6 @@
 
 /* -----------Media Queries for Medium Devices----------- */
 @media screen and (max-width: 1180px) {
-    // .front, .back{
-    //     .experience_content{
-    //         .experience_details{
-    //             .tap_here{
-    //                 display: block;
-    //                 position: absolute;
-    //                 bottom: 1.5rem;
-    //                 left: 50%;
-    //                 transform: translate(-50%); 
-    //                 line-height: 10px;
-    //             }
-    //         }
-    //     }
-    // }
     .back{
         .back_lists{
             margin: 5px;

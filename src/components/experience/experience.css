@@ -69,8 +69,8 @@
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   background: no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-bg-variant)), to(#5ce2fa));
-  background-image: linear-gradient(var(--color-bg-variant), #5ce2fa);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-bg-variant)), color-stop(rgba(92, 226, 250, 0.7)), to(var(--color-bg-variant)));
+  background-image: linear-gradient(var(--color-bg-variant), rgba(92, 226, 250, 0.7), var(--color-bg-variant));
 }
 
 .front h3 {
@@ -106,7 +106,7 @@
   /* back side, placed above front */
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  background: #c5f2fa url(../../img/Nova_Scotia.webp) no-repeat fixed center;
+  background: #c5f2fa url(../../img/experience/Nova_Scotia.webp) no-repeat fixed center;
   background-size: cover;
   color: white;
 }
