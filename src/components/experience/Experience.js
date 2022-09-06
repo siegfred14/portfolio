@@ -3,8 +3,8 @@ import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { MdFingerprint } from "react-icons/md";
-import codeclan from "../../img/code_clan.png";
-import kwatri from "../../img/kwatri.png";
+import codeclan from "../../img/experience/code_clan.png";
+import kwatri from "../../img/experience/kwatri.png";
 
 const Experience = () => {
   return (
