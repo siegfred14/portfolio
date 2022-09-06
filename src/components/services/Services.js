@@ -1,9 +1,9 @@
 import React from "react";
 import "./services.css";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
-import web from "../../img/service-2.svg";
-import photo from "../../img/service-3.svg";
-import CPE from "../../img/CPE-Icon.png";
+import web from "../../img/services/service-2.svg";
+import photo from "../../img/services/service-3.svg";
+import CPE from "../../img/services/CPE-Icon.png";
 
 const Services = () => {
   return (
