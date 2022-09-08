@@ -48,4 +48,9 @@ nav{
     }
 }
 
+@media screen and (max-width: 400px){
+  #nav_services{
+    display: none;
+  }
+}
 // put on scroll, change background
