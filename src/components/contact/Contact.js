@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import "./contact.css";
-import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { SiMessenger } from "react-icons/si";
 import emailjs from "@emailjs/browser";
@@ -31,6 +30,12 @@ const Contact = () => {
         }
       );
   };
+
+  // alertMsg = () => {
+  //   return setTimeout(() => {
+  //     <p className="status_msg msg1">"Message Sent!"</p>;
+  //   }, 3000);
+  // };
 
   return (
     <section id="contact">
