@@ -154,30 +154,11 @@
   background: none;
   color: #a70909;
   font-weight: 600;
-  text-align: right;
 }
 
 .contact_container .contact_content .contact_form .status_msg .toggle:hover {
   cursor: pointer;
   color: var(--color-font);
-}
-
-@-webkit-keyframes FadeAnimation {
-  0% {
-    z-index: 10;
-  }
-  100% {
-    z-index: -1;
-  }
-}
-
-@keyframes FadeAnimation {
-  0% {
-    z-index: 10;
-  }
-  100% {
-    z-index: -1;
-  }
 }
 
 @media screen and (max-width: 992px) {
