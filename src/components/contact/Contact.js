@@ -24,20 +24,21 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setStatus({ type: "success" });
+          statusMsg.style.display = "block";
           e.target.reset();
         },
         (error) => {
           console.log(error.text);
           setStatus({ type: "error", error });
+          statusMsg.style.display = "block";
         }
       );
   };
 
-  // alertMsg = () => {
-  //   return setTimeout(() => {
-  //     <p className="status_msg msg1">"Message Sent!"</p>;
-  //   }, 3000);
-  // };
+  const statusMsg = document.getElementById("status_msg");
+  const handleClose = () => {
+    statusMsg.style.display = "none";
+  };
 
   return (
     <section id="contact">
@@ -147,18 +148,26 @@ const Contact = () => {
             </div>
 
             {status?.type === "success" && (
-              <div className="status_msg">
+              <div id="status_msg" className="status_msg">
                 <BsCheckLg className="msg_logo1" />
                 <p>"Message Sent!"</p>
-                <button className="toggle">close</button>
+                <button className="toggle" onClick={handleClose}>
+                  close
+                </button>
               </div>
             )}
+
             {status?.type === "error" && (
               // <p className="status_msg msg2">"Message Not Sent Try Again!"</p>
-              <div className="status_msg">
+              <div id="status_msg" className="status_msg">
                 <MdOutlineReportGmailerrorred className="msg_logo2" />
                 <p>"Message Not Sent Try Again!"</p>
-                <button className="toggle">close</button>
+                <button
+                  className="toggle"
+                  onClick={() => (statusMsg.style.display = "none")}
+                >
+                  close
+                </button>
               </div>
             )}
 
