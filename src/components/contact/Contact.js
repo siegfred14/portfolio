@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import "./contact.css";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { SiMessenger } from "react-icons/si";
+import { BsCheckLg } from "react-icons/bs";
+import { MdOutlineReportGmailerrorred } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -145,10 +147,19 @@ const Contact = () => {
             </div>
 
             {status?.type === "success" && (
-              <p className="status_msg msg1">"Message Sent!"</p>
+              <div className="status_msg">
+                <BsCheckLg className="msg_logo1" />
+                <p>"Message Sent!"</p>
+                <button className="toggle">close</button>
+              </div>
             )}
             {status?.type === "error" && (
-              <p className="status_msg msg2">"Message Not Sent Try Again!"</p>
+              // <p className="status_msg msg2">"Message Not Sent Try Again!"</p>
+              <div className="status_msg">
+                <MdOutlineReportGmailerrorred className="msg_logo2" />
+                <p>"Message Not Sent Try Again!"</p>
+                <button className="toggle">close</button>
+              </div>
             )}
 
             <button type="submit" className="btn btn-primary">

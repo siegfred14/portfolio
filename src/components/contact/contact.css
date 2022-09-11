@@ -135,9 +135,31 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   text-align: center;
-  -webkit-animation: FadeAnimation 4s ease-in .1s forwards;
-          animation: FadeAnimation 4s ease-in .1s forwards;
   z-index: 4;
+}
+
+.contact_container .contact_content .contact_form .status_msg .msg_logo1 {
+  color: green;
+}
+
+.contact_container .contact_content .contact_form .status_msg .msg_logo2 {
+  color: red;
+}
+
+.contact_container .contact_content .contact_form .status_msg p {
+  margin-bottom: 0.6rem;
+}
+
+.contact_container .contact_content .contact_form .status_msg .toggle {
+  background: none;
+  color: #a70909;
+  font-weight: 600;
+  text-align: right;
+}
+
+.contact_container .contact_content .contact_form .status_msg .toggle:hover {
+  cursor: pointer;
+  color: var(--color-font);
 }
 
 @-webkit-keyframes FadeAnimation {

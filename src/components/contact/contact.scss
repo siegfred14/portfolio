@@ -119,10 +119,33 @@
                 left: 50%;
                 bottom: 20%;
                 transform: translate(-50%);
-                text-align: center;
-                
-                animation: FadeAnimation 4s ease-in .1s forwards;
+                text-align: center;                
+                // animation: FadeAnimation 4s ease-in .1s forwards;
                 z-index: 4;
+
+                .msg_logo1{
+                    color: green;
+                }
+
+                .msg_logo2{
+                    color: red;
+                }
+                
+                p{
+                    margin-bottom: 0.6rem;
+                }
+                
+                .toggle{
+                    background: none;
+                    color: rgb(167, 9, 9);
+                    font-weight: 600;
+                    text-align: right;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        color: var(--color-font);
+                    }
+                }
             }
         }
 
