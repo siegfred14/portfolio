@@ -35,12 +35,18 @@ import { BsMailbox } from "react-icons/bs";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
+  function scrolled() {
+    console.log("scrolling");
+  }
+
   return (
-    <nav>
+    <nav onScroll={scrolled}>
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        className={
+          activeNav === "#" || window.screen.height <= 600 ? "active" : ""
+        }
       >
         <FaHome />
         <span>home</span>
