@@ -11,7 +11,7 @@ const Footer = () => {
     <footer class="footer-area">
       <div className="container footer_container">
         <a href="#" className="logo">
-          SIEGFRED LOGO
+          SIEGFREDSAMSON
         </a>
 
         <ul className="section_links">
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="footer_copyright">
           <small>
-            <span className="copy">&copy;</span> <b>SIEGFREDSDOM</b>{" "}
+            <span className="copy">&copy;</span> <b>SIEGFREDSAMSON</b>{" "}
             {new Date().getFullYear()} | All Rights Reserved
           </small>
         </div>
