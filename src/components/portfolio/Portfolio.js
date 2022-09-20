@@ -4,7 +4,7 @@ import IMG1 from "../../img/portfolio/meteorology.png";
 import IMG2 from "../../img/portfolio/inikpiFurnitures.png";
 import IMG3 from "../../img/portfolio/calulator.png";
 import IMG4 from "../../img/portfolio/strata&structures.png";
-import IMG5 from "../../img/portfolio/pythonAtmApp.jpg";
+import IMG5 from "../../img/portfolio/budget_app.png";
 import IMG6 from "../../img/portfolio/belleda.png";
 
 let portfolioData = [
@@ -39,8 +39,8 @@ let portfolioData = [
   {
     id: 5,
     image: IMG5,
-    title: "Python ATM Application",
-    github: "https://github.com/siegfred14/AtmMockUpApp",
+    title: "Python Budget App",
+    github: "https://github.com/siegfred14/budgetapp",
     demo: "#",
   },
   {
