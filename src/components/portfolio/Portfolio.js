@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../img/portfolio/meteorology.png";
-import IMG2 from "../../img/portfolio/inikpiFurnitures.png";
+import IMG2 from "../../img/portfolio/greaterNigeriaWebsite.png";
 import IMG3 from "../../img/portfolio/calulator.png";
 import IMG4 from "../../img/portfolio/strata&structures.png";
 import IMG5 from "../../img/portfolio/budget_app.png";
@@ -15,11 +15,19 @@ let portfolioData = [
     github: "https://github.com/siegfred14/meteorologyWebApp",
     demo: "#",
   },
+  // {
+  //   id: 2,
+  //   image: IMG2,
+  //   title: "Inikpi Furnitures Ltd Website",
+  //   github: "https://github.com/siegfred14/jsOnlineStore",
+  //   demo: "#",
+  // },
   {
     id: 2,
     image: IMG2,
-    title: "Inikpi Furnitures Ltd Website",
-    github: "https://github.com/siegfred14/jsOnlineStore",
+    title: "Greater Nigeria Website",
+    github:
+      "https://github.com/siegfred14/2020projects/tree/master/Nigerian%20Website",
     demo: "#",
   },
   {
