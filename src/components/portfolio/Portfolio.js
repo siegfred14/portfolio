@@ -13,7 +13,7 @@ let portfolioData = [
     image: IMG1,
     title: "Meteorological App",
     github: "https://github.com/siegfred14/meteorologyWebApp",
-    demo: "#",
+    demo: "",
   },
   {
     id: 2,
@@ -21,35 +21,36 @@ let portfolioData = [
     title: "Greater Nigeria Website",
     github:
       "https://github.com/siegfred14/2020projects/tree/master/Nigerian%20Website",
-    demo: "#portfolio",
+    demo: "",
   },
   {
     id: 3,
     image: IMG3,
     title: "Simple React Calculator",
     github: "https://github.com/siegfred14/react-calculator",
-    demo: "#portfolio",
+    demo: "",
   },
   {
     id: 4,
     image: IMG4,
     title: "Strata & Structures Ltd Website ",
     github: "https://github.com/siegfred14/strata-and-structures",
-    demo: "#portfolio",
+    demo: "",
   },
   {
     id: 5,
     image: IMG5,
     title: "Python Budget App",
     github: "https://github.com/siegfred14/budgetapp",
-    demo: "#portfolio",
+    demo: "",
   },
   {
     id: 6,
     image: IMG6,
     title: "Belleda E-Commerce API",
     github: "https://github.com/siegfred14/Belleda-be-pjt-17",
-    demo: "http://belleda-back.herokuapp.com/?format=openapi",
+    demo: "",
+    // demo: "http://belleda-back.herokuapp.com/?format=openapi",
   },
 ];
 
@@ -77,7 +78,14 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  onClick={(e) => {
+                    alert("Under Construction | Please try later!");
+                    e.preventDefault();
+                  }}
+                  className="btn btn-primary"
+                >
                   Live Demo
                 </a>
               </div>
