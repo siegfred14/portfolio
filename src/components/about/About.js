@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
-import img from "../../img/SmartSelect_20220721-143019_Gallery.jpg";
-import img2 from "../../img/me_phily.jpg";
-import img3 from "../../img/SmartSelect_20220721-164043_Gallery.jpg";
+import img from "../../img/about/about_1.png";
+import img2 from "../../img/about/about_2.jpg";
+import img3 from "../../img/about/about_3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -20,7 +20,7 @@ const About = () => {
       });
     });
     item.addEventListener("mouseleave", () => {
-      collageImages.map((image, index) => {
+      collageImages.map((image) => {
         image.style = null;
       });
     });
