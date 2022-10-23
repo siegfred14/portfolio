@@ -13,14 +13,14 @@ const About = () => {
   collageImages.map((item, i) => {
     item.addEventListener("mouseover", () => {
       collageImages.map((image, index) => {
-        if (index != i) {
+        if (index !== i) {
           image.style.filter = "blur(10px)";
           item.style.zIndex = 2;
         }
       });
     });
     item.addEventListener("mouseleave", () => {
-      collageImages.map((image) => {
+      collageImages.map((image, index) => {
         image.style = null;
       });
     });
@@ -69,9 +69,9 @@ const About = () => {
 
         <div class="image-collage">
           <div class="image-collection">
-            <img src={img} alt="image loading..." class="collage-img" />
-            <img src={img2} alt="image loading..." class="collage-img" />
-            <img src={img3} alt="image loading..." class="collage-img" />
+            <img src={img} alt="loading..." class="collage-img" />
+            <img src={img2} alt="loading..." class="collage-img" />
+            <img src={img3} alt="loading..." class="collage-img" />
           </div>
         </div>
       </div>
