@@ -4,7 +4,7 @@ nav {
   width: -moz-max-content;
   width: max-content;
   padding: 0.7rem 1.7rem;
-  z-index: 3;
+  z-index: 11;
   position: fixed;
   left: 50%;
   -webkit-transform: translateX(-50%);
