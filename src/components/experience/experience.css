@@ -188,6 +188,15 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .experience_container .card_one {
+    margin-top: 0;
+  }
+  .experience_container .card_one .flip-container .card .back .back_lists ul li {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .experience_container .card_one, .experience_container .card_two {
     margin-top: 0;
