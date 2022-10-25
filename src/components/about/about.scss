@@ -75,7 +75,7 @@ section > h5{
           .collage-img {
             position: absolute;
             object-fit: cover;
-            transition: 0.5s;
+            transition: 1.5s;
     
             &:nth-child(1) {
               width: 75%;
@@ -99,6 +99,8 @@ section > h5{
     
             &:hover {
               transform: translateY(-10px);
+            //   z-index: 3;
+            //   transition: 1.5s;
             }
           }
         }
