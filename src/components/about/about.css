@@ -87,8 +87,8 @@ section > h5 {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .about_container .image-collage .image-collection .collage-img:nth-child(1) {
