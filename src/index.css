@@ -20,8 +20,8 @@ body{
 
 /* creating css variables */
 :root{
-  /* --color-bg: #1f1f38; */
-  /* try blue background later */
+  color-scheme: light;
+  
   --color-bg: #f7e8c9;
   --color-bg-alt: #e0ffc2;
   --color-bg-variant: #f7d797;
