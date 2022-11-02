@@ -120,8 +120,8 @@ section > h5 {
 }
 
 .about_container .image-collage .image-collection:hover .collage-img:not(:hover) {
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }

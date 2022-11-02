@@ -51,24 +51,9 @@ const About = () => {
 
         <div class="image-collage">
           <div class="image-collection">
-            <img
-              src={img}
-              id="img1"
-              alt="loading..."
-              class="collage-img img_set1 img_set3"
-            />
-            <img
-              src={img2}
-              id="img2"
-              alt="loading..."
-              class="collage-img img_set1 img_set2"
-            />
-            <img
-              src={img3}
-              id="img3"
-              alt="loading..."
-              class="collage-img img_set2 img_set3"
-            />
+            <img src={img} alt="loading..." class="collage-img" />
+            <img src={img2} alt="loading..." class="collage-img" />
+            <img src={img3} alt="loading..." class="collage-img" />
           </div>
         </div>
       </div>
