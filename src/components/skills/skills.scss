@@ -150,11 +150,11 @@
         padding: 0.4rem;
         .skill_box{
             padding: 0.2rem;
-            // .skill_title{
-            //     h3{
-            //         font-size: 13px;
-            //     }
-            // }
+            .skill_title{
+                .bootstrap_label{
+                    font-size: 20px;
+                }
+            }
         }
     }
 }

@@ -48,7 +48,7 @@ export const Skills = () => {
                 alt="sass"
               />
             </div>
-            <h3>Bootstrap | Sass</h3>
+            <h3 className="bootstrap_label">Bootstrap | Sass</h3>
           </div>
         </div>
         <div className="skill_box JS">

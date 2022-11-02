@@ -193,6 +193,9 @@
   .skills_container .skill_box {
     padding: 0.2rem;
   }
+  .skills_container .skill_box .skill_title .bootstrap_label {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 280px) {
