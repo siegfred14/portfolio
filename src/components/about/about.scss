@@ -99,9 +99,15 @@ section > h5{
     
             &:hover {
               transform: translateY(-10px);
-            //   z-index: 3;
-            //   transition: 1.5s;
+              z-index: 2;
+              transition: all 1.5s;
             }
+        }
+        &:hover {
+            .collage-img:not(:hover){
+                filter: blur(10px);
+                transition: all 1.5s;
+             }
           }
         }
       } 

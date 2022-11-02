@@ -8,52 +8,6 @@ import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
-  let collageImages = [...document.querySelectorAll(".collage-img")];
-
-  collageImages.map((item, i) => {
-    item.addEventListener("mouseover", () => {
-      collageImages.map((image, index) => {
-        if (index !== i) {
-          image.style.filter = "blur(10px)";
-          item.style.zIndex = 2;
-        }
-      });
-    });
-    item.addEventListener("mouseleave", () => {
-      collageImages.map((image) => {
-        image.style = null;
-      });
-    });
-  });
-
-  // const imageSwitch = () => {
-  //   let collageImages = [...document.querySelectorAll(".collage-img")];
-
-  //   for (let i in collageImages) {
-  //     if (collageImages[i].onMouseEnter()) {
-  //       collageImages.style.zIndex = 4;
-  //       // collageImages[i].style.filter = "blur(10px)"
-  //     }
-  //   }
-
-  // collageImages.map((item, i) => {
-  //   item.onMouseOver(() => {
-  //     collageImages.map((image, index) => {
-  //       if (index !== i) {
-  //         return (image.style.filter = "blur(10px)"), (item.style.zIndex = 2);
-  //       }
-  //       return image;
-  //     });
-  //     return item;
-  //   });
-  //   item.onMouseLeave(() => {
-  //     collageImages.map((image) => {
-  //       return (image.style = null);
-  //     });
-  //   });
-  // });
-  // };
-
   return (
     <section id="about">
       <h5>Get Conversant!</h5>
@@ -97,9 +51,24 @@ const About = () => {
 
         <div class="image-collage">
           <div class="image-collection">
-            <img src={img} alt="loading..." class="collage-img img1" />
-            <img src={img2} alt="loading..." class="collage-img img2" />
-            <img src={img3} alt="loading..." class="collage-img img3" />
+            <img
+              src={img}
+              id="img1"
+              alt="loading..."
+              class="collage-img img_set1 img_set3"
+            />
+            <img
+              src={img2}
+              id="img2"
+              alt="loading..."
+              class="collage-img img_set1 img_set2"
+            />
+            <img
+              src={img3}
+              id="img3"
+              alt="loading..."
+              class="collage-img img_set2 img_set3"
+            />
           </div>
         </div>
       </div>

@@ -114,6 +114,16 @@ section > h5 {
 .about_container .image-collage .image-collection .collage-img:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+  z-index: 2;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.about_container .image-collage .image-collection:hover .collage-img:not(:hover) {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 /* -----------Media Queries for Medium Devices----------- */
