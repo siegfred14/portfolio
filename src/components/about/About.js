@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import img from "../../img/about/about_1.png";
-import img2 from "../../img/about/about_2.jpg";
+import img2 from "../../img/about/about_2.png";
 import img3 from "../../img/about/about_3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
