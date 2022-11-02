@@ -115,8 +115,8 @@ section > h5 {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   z-index: 2;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
 }
 
 .about_container .image-collage .image-collection:hover .collage-img:not(:hover) {
