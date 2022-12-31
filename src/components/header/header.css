@@ -79,7 +79,8 @@ header {
   bottom: 12px;
   border: 6px solid #f4f0e4;
   border-radius: 0.5rem;
-  z-index: 2;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .scroll_down {
