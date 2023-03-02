@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
+import "./portfolio.css";
 import "node_modules/react-modal-video/scss/modal-video.scss";
 
-class videoModal extends React.Component {
+class VideoModal extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -22,10 +23,12 @@ class videoModal extends React.Component {
         <ModalVideo
           channel="youtube"
           isOpen={this.state.isOpen}
-          videoId="L61p2uyiMSo"
+          videoId={this.props.videoId}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button onClick={this.openModal}>Open</button>
+        <button className="btn btn-primary" onClick={this.openModal}>
+          Live Demo
+        </button>
       </React.Fragment>
     );
   }
