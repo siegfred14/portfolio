@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import Model from "./VideoModal";
+import Model, { VideoModal } from "./VideoModal";
 import IMG1 from "../../img/portfolio/meteorology.png";
 import IMG2 from "../../img/portfolio/greaterNigeriaWebsite.png";
 import IMG3 from "../../img/portfolio/calulator.png";
@@ -79,7 +79,7 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                if({demo} != ""){<Model />}else
+                {/* if({demo} != ""){<VideoModal videoId={demo} />}else
                 {
                   <a
                     href={demo}
@@ -91,7 +91,8 @@ const Portfolio = () => {
                   >
                     Live Demo
                   </a>
-                }
+                } */}
+                <VideoModal />
               </div>
             </article>
           );
