@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import Model from "./VideoModal";
 import IMG1 from "../../img/portfolio/meteorology.png";
 import IMG2 from "../../img/portfolio/greaterNigeriaWebsite.png";
 import IMG3 from "../../img/portfolio/calulator.png";
@@ -49,7 +50,7 @@ let portfolioData = [
     image: IMG6,
     title: "Belleda E-Commerce API",
     github: "https://github.com/siegfred14/Belleda-be-pjt-17",
-    demo: "",
+    demo: "ujjFT6SSquI",
     // demo: "http://belleda-back.herokuapp.com/?format=openapi",
   },
 ];
@@ -78,16 +79,19 @@ const Portfolio = () => {
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
-                <a
-                  href={demo}
-                  onClick={(e) => {
-                    alert("Under Construction | Please try later!");
-                    e.preventDefault();
-                  }}
-                  className="btn btn-primary"
-                >
-                  Live Demo
-                </a>
+                if({demo} != ""){<Model />}else
+                {
+                  <a
+                    href={demo}
+                    onClick={(e) => {
+                      alert("Under Construction | Please try later!");
+                      e.preventDefault();
+                    }}
+                    className="btn btn-primary"
+                  >
+                    Live Demo
+                  </a>
+                }
               </div>
             </article>
           );
