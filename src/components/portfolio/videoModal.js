@@ -26,7 +26,11 @@ export class VideoModal extends React.Component {
           videoId={this.props.videoId}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button className="btn btn-primary" onClick={this.openModal}>
+        <button
+          className="btn btn-primary"
+          target="_blank"
+          onClick={this.openModal}
+        >
           Live Demo
         </button>
       </React.Fragment>

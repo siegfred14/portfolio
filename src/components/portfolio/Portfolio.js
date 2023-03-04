@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import Model, { VideoModal } from "./VideoModal";
+import { VideoModal } from "./VideoModal";
 import IMG1 from "../../img/portfolio/meteorology.png";
 import IMG2 from "../../img/portfolio/greaterNigeriaWebsite.png";
 import IMG3 from "../../img/portfolio/calulator.png";
@@ -92,7 +92,7 @@ const Portfolio = () => {
                     Live Demo
                   </a>
                 } */}
-                <VideoModal />
+                <VideoModal videoId={demo} />
               </div>
             </article>
           );
