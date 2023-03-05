@@ -27,3 +27,7 @@
 ### The component css files are built on sass
 
 ### card slider was also employed to display different cards using the Swiper tool.
+
+### I am using react-modal for videos
+
+### I have edited videos demos using veed.io
