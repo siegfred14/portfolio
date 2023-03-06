@@ -14,7 +14,7 @@ let portfolioData = [
     image: IMG1,
     title: "Meteorological App",
     github: "https://github.com/siegfred14/meteorologyWebApp",
-    demo: "",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 2,
@@ -22,28 +22,28 @@ let portfolioData = [
     title: "Greater Nigeria Website",
     github:
       "https://github.com/siegfred14/2020projects/tree/master/Nigerian%20Website",
-    demo: "",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 3,
     image: IMG3,
     title: "Simple React Calculator",
     github: "https://github.com/siegfred14/react-calculator",
-    demo: "",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 4,
     image: IMG4,
     title: "Strata & Structures Ltd Website ",
     github: "https://github.com/siegfred14/strata-and-structures",
-    demo: "",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 5,
     image: IMG5,
     title: "Python Budget App",
     github: "https://github.com/siegfred14/budgetapp",
-    demo: "",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 6,
