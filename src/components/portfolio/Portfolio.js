@@ -43,7 +43,7 @@ let portfolioData = [
     image: IMG5,
     title: "Python Budget App",
     github: "https://github.com/siegfred14/budgetapp",
-    demo: "ujjFT6SSquI",
+    demo: "G6zdMDphQ6s",
   },
   {
     id: 6,
