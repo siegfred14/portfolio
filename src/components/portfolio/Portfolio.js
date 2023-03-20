@@ -29,7 +29,7 @@ let portfolioData = [
     image: IMG3,
     title: "Simple React Calculator",
     github: "https://github.com/siegfred14/react-calculator",
-    demo: "ujjFT6SSquI",
+    demo: "Vuq3RFI5MhM",
   },
   {
     id: 4,
