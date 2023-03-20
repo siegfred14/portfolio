@@ -29,7 +29,7 @@ let portfolioData = [
     image: IMG3,
     title: "Simple React Calculator",
     github: "https://github.com/siegfred14/react-calculator",
-    demo: "Vuq3RFI5MhM",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ let portfolioData = [
     image: IMG5,
     title: "Python Budget App",
     github: "https://github.com/siegfred14/budgetapp",
-    demo: "G6zdMDphQ6s",
+    demo: "ujjFT6SSquI",
   },
   {
     id: 6,
