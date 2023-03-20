@@ -36,7 +36,7 @@ let portfolioData = [
     image: IMG4,
     title: "Strata & Structures Ltd Website ",
     github: "https://github.com/siegfred14/strata-and-structures",
-    demo: "ujjFT6SSquI",
+    demo: "vjjKHCJbEBA",
   },
   {
     id: 5,
