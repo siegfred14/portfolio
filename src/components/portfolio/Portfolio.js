@@ -22,7 +22,7 @@ let portfolioData = [
     title: "Greater Nigeria Website",
     github:
       "https://github.com/siegfred14/2020projects/tree/master/Nigerian%20Website",
-    demo: "ujjFT6SSquI",
+    demo: "WSUMTKYnfaM",
   },
   {
     id: 3,
