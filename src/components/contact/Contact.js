@@ -54,7 +54,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact_card_icon"></i>
 
               <h3 className="contact_card_title">e-mail</h3>
-              <h5 className="contact_card_data">siegfred****@gmail.com</h5>
+              <h5 className="contact_card_data">siegfred@***siegfred.com</h5>
 
               <a
                 href="mailto:siegfredsamson@gmail.com"
@@ -71,7 +71,7 @@ const Contact = () => {
               <IoLogoWhatsapp className="contact_card_icon" />
 
               <h3 className="contact_card_title">Whatsapp</h3>
-              <h5 className="contact_card_data">+** *** **** 2916</h5>
+              <h5 className="contact_card_data">+* *** *** 2916</h5>
 
               <a
                 href="https://api.whatsapp.com/send?phone=+2348036192916"
