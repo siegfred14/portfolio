@@ -74,12 +74,12 @@
 }
 
 #services .services_container .service .service_list li img {
-  width: 30%;
+  width: 40%;
   position: relative;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  margin: 0.7rem 0;
+  margin: 0.6rem 0;
 }
 
 #services .services_container .service .service_list li p {

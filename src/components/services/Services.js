@@ -2,7 +2,8 @@ import React from "react";
 import "./services.css";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import web from "../../img/services/service-2.svg";
-import photo from "../../img/services/service-3.svg";
+// import photo from "../../img/services/service-3.svg";
+import data from "../../img/services/BigData.png";
 import CPE from "../../img/services/CPE-Icon.png";
 
 const Services = () => {
@@ -81,21 +82,27 @@ const Services = () => {
           </ul>
         </article>
 
-        {/* picture editing */}
+        {/* Data Analysis */}
         <article className="service">
           <div className="service_head">
-            <h3>Picture Editing</h3>
+            <h3>Big Data Analytics</h3>
           </div>
 
           <ul className="service_list">
             <li>
               {/* <FaCanadianMapleLeaf className="service_list_icon" /> */}
-              <img src={photo} alt="" />
+              <img src={data} alt="" />
               <p>
+                Using advanced methods and algorithms for BIG data collection
+                from specific sources, while ensuring reliability, then
+                preprocessing this data for analyses, experiments, insights and
+                hypotheses.
+              </p>
+              {/* <p>
                 Reviewing, editing and identifying relevant photos, to make them
                 more appealing for publication, dissemination, personal targets
                 or to meet the organization's photography needs.
-              </p>
+              </p> */}
             </li>
             {/* <li>
               <FaCanadianMapleLeaf className="service_list_icon" />

@@ -97,7 +97,7 @@ const Portfolio = () => {
                     Live Demo
                   </a>
                 } */}
-                <videoModal videoId={demo} />
+                <VideoModal videoId={demo} />
               </div>
             </article>
           );
