@@ -76,7 +76,12 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio_item_cta">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
                 {/* if({demo} != ""){<VideoModal videoId={demo} />}else
@@ -92,7 +97,7 @@ const Portfolio = () => {
                     Live Demo
                   </a>
                 } */}
-                <VideoModal videoId={demo} />
+                <videoModal videoId={demo} />
               </div>
             </article>
           );
