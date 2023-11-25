@@ -23,7 +23,7 @@ const About = () => {
             from my knowledge of engineering and math to source information,
             write, edit, test, and debug web programs and applications.
             <br />I am comfortably a team player who pays attention to detail,
-            is decision-oriented and result-driven, possesses great
+            is decision-oriented and result-driven. I possess great
             interpersonal and work relationship, communicating fluently in{" "}
             <span>English</span> and <span className="french">French</span>
           </p>
